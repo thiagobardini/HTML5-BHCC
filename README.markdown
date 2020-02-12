@@ -77,13 +77,14 @@ EXAMPLE:
       h1.green {
         color: purple;
       }
-<!-- Tem dois tipos para definir classes (ex: H1), outro exemplo seria
-        .purpleserif {
-            font-family: times new roman, georgia, serif; 
-        }    
-Dentro do body:
-<h1 class="purpleserif">Purple H1</h1>
-<--
+                    <!-- 
+                    Tem dois tipos para definir classes (ex: H1), outro exemplo seria:
+                        .purpleserif {
+                                font-family: times new roman, georgia, serif; 
+                         }    
+                     Dentro do body:
+                                <h1 class="purpleserif">Purple H1</h1>
+                     <--
  
       a {
         font-family: verdana, arial, san-serif;
