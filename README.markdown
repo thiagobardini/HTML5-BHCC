@@ -2,9 +2,9 @@
 <p>Major: Information Technology</p>
 <p>Spring 2020</p>
 
-<!--
 
-2 - CLASS 
+
+<p> 2 - CLASS </p>
 
 hr -> Horizontal line
 <h1 style="color:red;font-size:20px;font-family:arial,verdana,san-serif"> -> This is inside of <heading/paragraph..>
