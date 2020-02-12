@@ -47,3 +47,28 @@ Block Stamments: blockquote, div, dl, form, h tags, hr, ol, p, table, ul
 -->
 #
 CSS - Cascading Style Sheets
+
+<!-- 
+EXAMPLE:
+    <html>
+  <head>
+    <meta>
+    <title>CSS</title>
+    <style>
+      body {
+        color: green;
+        font-family: verdana, arial, san-serif;
+      }
+      p {
+        color: purple;
+      }
+      a {
+        font-family: verdana, arial, san-serif;
+      }
+    </style>
+  </head>
+  <body>
+    
+    </body>
+    </html>
+ <--
