@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta>
-    <title>Readme GitHub</title>
+    <title></title>
   </head>
   <body>
     <h1>BHCC Student - CIT111 HTML5</hi>
