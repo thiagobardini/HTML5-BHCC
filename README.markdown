@@ -51,7 +51,7 @@ CSS - Cascading Style Sheets
 <!-- 
 EXAMPLE:
     <html>
-  <head>
+    <head>
     <meta>
     <title>CSS</title>
     <style>
@@ -60,15 +60,18 @@ EXAMPLE:
         font-family: verdana, arial, san-serif;
       }
       p {
-        color: purple;
+        color: purple; 
+      }
+      h1, h2, em, b {
+        font-family: times new roman, georgia, serif; 
       }
       a {
         font-family: verdana, arial, san-serif;
       }
     </style>
-  </head>
-  <body>
-    
+    </head>
+    <body>
+    .......
     </body>
     </html>
  <--
