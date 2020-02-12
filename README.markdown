@@ -5,12 +5,11 @@ Major: Information Technology
 Spring 2020
 
 #
-HTML - Body Text
+HTML 
 
 Block Stamments: blockquote, div, dl, form, h tags, hr, ol, p, table, ul
-
-
 <!--
+    TAGS:
     <title> Titulo
     <b> bold
     <p> parágrafo
@@ -45,5 +44,6 @@ Block Stamments: blockquote, div, dl, form, h tags, hr, ol, p, table, ul
     <img width="200px" hsrc="https://i.ytimg.com/vi/szby7ZHLnkA/maxresdefault.jpg" alt="Sonic -> New Official Trailler">
 
     px -> pixel
-
 -->
+
+CSS - Cascading Style Sheets
