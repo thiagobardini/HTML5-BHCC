@@ -55,23 +55,48 @@ EXAMPLE:
     <meta>
     <title>CSS</title>
     <style>
+
       body {
         color: green;
         font-family: verdana, arial, san-serif;
       }
+
       p {
         color: purple; 
       }
+
       h1, h2, em, b {
         font-family: times new roman, georgia, serif; 
+        font-size: 14px;
       }
+
+      h1.purple {
+         color: green;
+      }
+      
+      h1.green {
+        color: purple;
+      }
+<!-- Tem dois tipos para definir classes (ex: H1), outro exemplo seria
+        .purpleserif {
+            font-family: times new roman, georgia, serif; 
+        }    
+Dentro do body:
+<h1 class="purpleserif">Purple H1</h1>
+<--
+ 
       a {
         font-family: verdana, arial, san-serif;
       }
+      
     </style>
     </head>
     <body>
-    .......
+    
+    <h1>Regular H!</h1>
+    <h1 class="purple">Purple H1</h1>
+    <h1 class="green">Green H1</h1>
+    
     </body>
     </html>
  <--
