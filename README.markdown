@@ -7,7 +7,7 @@ Spring 2020
 #
 HTML 
 
-Block Stamments: blockquote, div, dl, form, h tags, hr, ol, p, table, ul
+Block Statements: blockquote, div, dl, form, h tags, hr, ol, p, table, ul
 <!--
     TAGS:
     <title> Titulo
