@@ -1,4 +1,4 @@
-#BHCC Student - CIT111 HTML5
+# BHCC Student - CIT111 HTML5
 
 Major: Information Technology
 
