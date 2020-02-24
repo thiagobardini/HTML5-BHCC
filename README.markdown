@@ -1,8 +1,8 @@
-BHCC Student - CIT111 HTML5
+## BHCC Student - CIT111 HTML5
 
-Major: Information Technology
+# Major: Information Technology
 
-Spring 2020
+# Spring 2020
 
 #
 HTML 
