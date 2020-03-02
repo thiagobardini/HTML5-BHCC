@@ -1,0 +1,145 @@
+#container /* ???*/
+{
+        width: 100%;
+        margin: 10px auto;
+        color: #333;
+        line-height: 130%;
+        font-style: normal;
+}
+#masthead
+{
+        background-color: darkblue;
+        border-top: 15px solid darkblue;
+        border-bottom: 25px solid darkblue;
+        word-spacing: 0.3em;
+        letter-spacing: 0.1em;
+}
+#topbar ul
+{
+        margin: 0;
+        padding: 3px;
+        border-bottom: 5px solid darkblue;
+        list-style-type: none;
+        font-family: "Trebuchet MS". sans-serif;
+        text-align: justify;
+}
+#topbar ul li
+{
+        display: inline;
+        text-decoration: none;
+}
+#topbar ul li a
+{
+        text-decoration: none;
+        padding: 3px 0.5em;
+        color: #fff;
+        background-color: orange;
+        borden-bottom: none;
+        border: 1px solid gray;
+}
+#topbar ul li a:hover /* This is for dar emphase no botão*/
+{
+        color: #fff;
+        background-color: red;
+}
+#navcontainer
+{
+        float: left;
+        width: 200px;
+        font-style: normal;
+        background-attachment: scroll;
+}
+
+#navcontainer ul
+{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        list-style-type: none;
+        font-family: Verdana;
+}
+#navcontainer a
+{
+        display: block;
+        padding:3px;
+        width: 182px;
+        background-color: red;
+        border-bottom: 1px solid gray;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+}
+#navcontainer a:link, #navlist a:visited
+{
+        color: white;
+        text-decoration: none;
+}
+#navcontainer a:hover
+{
+        background-color: white;
+        color: red;
+        font-weight: bolder
+}#navlist
+{
+        padding: 0 1px 1px;
+        margin-top: 0;
+        word-spacing: 0.3em;
+        letter-spacing: .4 em; /* ?? Pq o em está separado?? */
+}
+#content
+{
+        margin-left: 200px;
+        padding: 1em;
+        max-width: 40em;
+        background-color: ;/*/////////////////content box*/
+        color: white;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-top-color: #666666;
+        border-right-color: #666666;
+        border-bottom-color: #666666;
+        border-left-color: #666666;
+}
+#content p
+{
+        margin-left: 15px;
+}
+body
+{
+        font-family: Verdana, sans-serif;
+        color: black;
+        background-color: darkblue;
+}
+a
+{
+        text-decoration: b=none;
+}
+a:link
+{
+        color:red
+}
+a:visited /*??*/
+{
+        color: red
+}
+a:hover
+{
+        background-color: red;
+        color: white;
+        text-decoration: none
+}
+#footer
+{
+        clear: both;
+        margin: 0;
+        padding: .5em;
+        color: white;
+        background-color: darkblue;
+        border-top: 1px solid gray;
+        font-family: "Verdana";
+        text-align: center;
+        font-size: 12px;
+}
