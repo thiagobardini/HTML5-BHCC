@@ -1,5 +1,5 @@
 # Destinations Page
-- [Click here to see the full website](http://www.media15live.com/studentsUpload/BARDINI_1585582065/MIDTERMPROJECT.htm)
+- [Click here to see the full website](http://www.media15live.com/studentsUpload/BARDINI_1585582065/destinations.htm)
 
 ![Destinations](https://github.com/thiagobardini/HTML5-CSS-BHCC/blob/master/Imagens/Destinations.png)
 
