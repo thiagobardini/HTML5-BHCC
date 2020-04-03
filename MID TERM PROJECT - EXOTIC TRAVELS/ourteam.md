@@ -3,6 +3,7 @@
 
 ![Team Page](https://github.com/thiagobardini/HTML5-CSS-BHCC/blob/master/Imagens/team.png)
 
+##CODE##
 ```html
 <html>
   <head>
