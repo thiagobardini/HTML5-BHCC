@@ -1,5 +1,5 @@
 # Our Team PAGE
-- [FOLLOW THE LINK](http://www.media15live.com/studentsUpload/BARDINI_1585582065/MIDTERMPROJECT.htm)
+- [Click here to see the full website](http://www.media15live.com/studentsUpload/BARDINI_1585582065/MIDTERMPROJECT.htm)
 
 ![Team Page](https://github.com/thiagobardini/HTML5-CSS-BHCC/blob/master/Imagens/team.png)
 
