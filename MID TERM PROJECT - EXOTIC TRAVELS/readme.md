@@ -1,3 +1,3 @@
 # EXOTIC TRAVELS - MidTerm Project
 
-Links for Project 2: [Click](http://www.media15live.com/studentsUpload/BARDINI_1585582065/)
+- Project 2: [Link](http://www.media15live.com/studentsUpload/BARDINI_1585582065/)
