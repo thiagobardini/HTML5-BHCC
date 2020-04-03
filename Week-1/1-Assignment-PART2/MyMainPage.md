@@ -1,13 +1,11 @@
-```
+```html
 TAGS:
 
 <br /> Line Breaker -> Começar em uma linha abaixo
 
 <a href="#"></a> -> Página ancora é para criar um link, sendo que o meu titulo será "Here you can link to page 1"
 ex: <a href="Page1.html">Here you can link to page 1</a>
-```
 
-```html
 <html>
   <head>
     <title>This is my main page for using HTML links</title>
