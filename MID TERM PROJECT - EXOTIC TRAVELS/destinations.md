@@ -1,3 +1,10 @@
+# Destinations Page
+- [FOLLOW THE LINK](http://www.media15live.com/studentsUpload/BARDINI_1585582065/MIDTERMPROJECT.htm)
+
+![Destinations](https://github.com/thiagobardini/HTML5-CSS-BHCC/blob/master/Imagens/Destinations.png)
+
+## CODE
+```html
 <html>
   <head>
     <title>MID TERM PROJECT</title>
@@ -366,3 +373,4 @@
 
   </body>
 </html>
+```
