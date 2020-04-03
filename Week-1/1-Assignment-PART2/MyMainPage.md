@@ -24,7 +24,7 @@ ex: <a href="Page1.html">Here you can link to page 1</a>
 
 <html>
   <head>
-    <title>This is my main page for using HTML links</title>
+    <title> This is my main page for using HTML links </title>
   </head>
   <body>
 <h1>Here is where I am learning HTML links</h1>
