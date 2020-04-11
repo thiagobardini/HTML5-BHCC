@@ -1,5 +1,7 @@
 # MidTerm Project  
 
+### :neckbeard: Programming Languages: HTML and CSS.
+
 ### Agency Travel - EXOTIC TRAVELS 
 - [Click here to see the full website](http://www.media15live.com/studentsUpload/BARDINI_1585582065/)
 
