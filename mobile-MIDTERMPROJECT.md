@@ -6,7 +6,7 @@
 
 ## CODE
 
-### :neckbeard: Programming Language: HTML, CSS, JavaScript
+### :neckbeard: Programming Languages: HTML, CSS and JavaScript.
 ````html
 <html>
 
