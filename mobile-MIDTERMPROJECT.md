@@ -1,4 +1,4 @@
-# INDEX PAGE
+# INDEX PAGE - Mobile Version
 - [Click here to see the full website](http://media15live.com/studentsUpload/Tbardini_1586637064/indexExoticTravel.htm)
 
 ![Index Page](https://github.com/thiagobardini/HTML5-CSS-BHCC/blob/master/Imagens/MobileExoticTravel.png)
