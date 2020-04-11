@@ -5,7 +5,6 @@
 
 ## CODE
 ````html
-<!-- saved from url=(0079)http://www.media15live.com/studentsUpload/BARDINI_1585582065/MIDTERMPROJECT.htm -->
 <html>
 
 <head>
