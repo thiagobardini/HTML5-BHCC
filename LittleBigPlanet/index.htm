@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title></title>
+
+  <style media="screen">
+    html {
+      color: white;
+      background-image: url(https://littlebigplanet.playstation.com/sites/default/files/lbp-hp-bg.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    body {
+      background: radial-gradient(rgba(186, 211, 42, 0.9)10%, rgba(186, 211, 42, 0)60%, rgba(12, 157, 166, 0.9)90%);
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    #container {
+      width: 1200px;
+      height: 1503px;
+      /*may change*/
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #topBAR {
+      width: 1200px;
+      height: 40px;
+      float: left;
+      background-color: black;
+      padding: 5px 0;
+    }
+
+    #topBARimg {
+      background-image: url(https://4.bp.blogspot.com/-m4CHKgGIQug/XpjuX8WvXLI/AAAAAAAABeg/5a0_snnhnP05bvDkLiyuxN9knwBgNtoMgCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-04-16%2Bat%2B7.45.59%2BPM.png);
+      width: 100px;
+      height: 40px;
+      margin-left: 1080px;
+      background-size: cover;
+      < !-- DEU CERTO,
+      MAS ESTA REPETIDO A IMAGEM NO FUNDO EU AJUSTEI PRA FICAR NO MESMO TAMANHO-->
+    }
+
+    #logosBAR {
+      width: 1200px;
+      height: 70px;
+      background-color: transparent;
+      float: left;
+      background-size: contain;
+    }
+
+    #logosBARsocial {
+      width: 500px;
+      height: 70px;
+      background-color: rgba(12, 157, 166, 0.9);
+      border-radius: 0 0 1em 1em;
+      float: right;
+      background-size: contain;
+    }
+
+    #logosBARsocial {
+      width: 520px;
+      height: 70px;
+      background-color: rgba(12, 157, 166, 0.9);
+      border-radius: 0 0 1em 1em;
+      float: right;
+      background-size: contain;
+      display: inline-block;
+    }
+
+    #social0 {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://pbs.twimg.com/media/B2pn8nQCEAE50eL.png');
+      background-size: cover;
+      float: left;
+      margin-top: 5px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    #social1 {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://ya-webdesign.com/transparent250_/facebook-log-png-8.png');
+      background-size: cover;
+      float: left;
+      margin-top: 5px;
+
+    }
+
+    #social2 {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://ya-webdesign.com/transparent250_/white-twitter-icon-png-2.png');
+      background-size: cover;
+      float: left;
+      margin-top: 5px;
+    }
+
+    #social3 {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://ya-webdesign.com/transparent250_/like-button-png-youtube-2.png');
+      background-size: cover;
+      float: left;
+      margin-top: 5px;
+    }
+
+    #social4 {
+      width: 60px;
+      height: 40px;
+      background-image: url('https://ya-webdesign.com/transparent250_/flag-of-brazil-bevelled.png');
+      background-size: cover;
+      float: right;
+      margin-top: 10px;
+      margin-right: 40px;
+    }
+
+    #linkBUTTONBar {
+      width: 1200px;
+      height: 450px;
+      background-color: transparent;
+      float: left;
+    }
+
+    #linkBUTTONnavigation {
+      width: 600px;
+      height: 450px;
+      background-color: transparent;
+      float: right;
+      position: relative;
+    }
+
+    #linkBUTTON1 {
+      width: 600px;
+      height: 50px;
+      float: left;
+      margin-top: 55px;
+    }
+
+    #linkBUTTON1-1 {
+      background-color: transparent;
+      display: inline-block;
+      width: 180px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON1-1 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 2em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 126px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 12px;
+      border-radius: 31px;
+      border-bottom-left-radius: 31px;
+      margin-left: 100px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON1-1 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTON1-2 {
+      background-color: transparent;
+      display: inline-block;
+      width: 180px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON1-2 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 3em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 165px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 25px;
+      border-radius: 31px;
+      border-bottom-left-radius: 31px;
+      margin-left: 50px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON1-2 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTON1-3 {
+      background-color: transparent;
+      display: inline-block;
+      width: 180px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON1-3 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 2em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 106px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 13px;
+      border-radius: 31px;
+      margin-left: 40px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON1-3 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTON2 {
+      width: 600px;
+      height: 50px;
+      float: left;
+      margin-top: 5px;
+    }
+
+    #linkBUTTON2-1 {
+      background-color: transparent;
+      display: inline-block;
+      width: 280px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON2-1 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 2.3em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 230px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 13px;
+      border-radius: 31px;
+      margin-left: 100px;
+      margin-top: 20px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON2-1 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTON2-2 {
+      background-color: transparent;
+      display: inline-block;
+      width: 280px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON2-2 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 2.6em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 184px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 13px;
+      border-radius: 31px;
+      margin-left: 53px;
+      margin-top: 24px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON2-2 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTON3 {
+      width: 600px;
+      height: 50px;
+      float: left;
+      margin-top: 5px;
+    }
+
+    #linkBUTTON3-1 {
+      background-color: transparent;
+      display: inline-block;
+      width: 280px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON3-1 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 1.7em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 210px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 7px;
+      border-radius: 31px;
+      margin-left: 113px;
+      margin-top: 40px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON3-1 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTON3-2 {
+      background-color: transparent;
+      display: inline-block;
+      width: 280px;
+      height: 50px;
+      margin-right: 5px;
+    }
+
+    #linkBUTTON3-2 a {
+      font-family: Helvetica, Sans-serif;
+      color: white;
+      font-size: 2em;
+      background-color: rgba(12, 157, 166, 0.9);
+      text-decoration: none;
+      display: inline-block;
+      width: 130px;
+      height: 32px;
+      text-align: center;
+      padding-bottom: 7px;
+      border-radius: 31px;
+      margin-left: 47px;
+      margin-top: 20px;
+      box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
+    }
+
+    #linkBUTTON3-2 a:hover {
+      color: #2f1111;
+      background-color: #ff0;
+    }
+
+    #linkBUTTONimg {
+      width: 600px;
+      height: 450px;
+      background-color: transparent;
+      float: left;
+      background-image: url(https://littlebigplanet.playstation.com/sites/all/themes/lbp/images/optimized/logo/logo-blue.png);
+      position: absolute;
+    }
+
+    #bannerIMAGE {
+      position: absolute;
+      top: 289px;
+    }
+
+    #mainBANNERContaineir {
+      width: 1200px;
+      height: 502px;
+      /*add 32 pixels in  BANNER(that's for  the border)*/
+      background-color: transparent;
+      float: left;
+    }
+
+    #navigationContainer {
+      width: 1200px;
+      height: 120px;
+      background-color: transparent;
+      float: left;
+    }
+
+    #BANNER {
+      width: 1000px;
+      height: 470px;
+      background-color: RED;
+      margin-left: auto;
+      /*HELP TO CENTER  banner in mainBANNERContainer*/
+      margin-right: auto;
+      /*HELP TO CENTER  banner in mainBANNERContainer*/
+      background-image: url(https://static.tvtropes.org/pmwiki/pub/images/littlebigplanet_3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 17px solid white;
+      box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 2px 2px 2px 2px;
+    }
+
+
+    #navigation {
+      width: 1032px;
+      height: 120px;
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .navigationButtom {
+      display: inline-block;
+      width: 180px;
+      height: 120px;
+      margin-right: 5px;
+      text-align: center;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    #navigation1 {
+      background: linear-gradient(to bottom, #d0d030 0%, #ffff00 100%);
+      width: 170px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      border-bottom-right-radius: 31px;
+      border-bottom-left-radius: 31px;
+      text-decoration: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: #000;
+      font-size: 23px;
+      padding: 10px 7% 25px;
+      line-height: 25px;
+      padding-right: inherit;
+    }
+
+    #navigation1 a {
+      text-decoration: none;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: #000;
+      font-size: 23px;
+    }
+
+    #navigation1 a.hover {
+      background: none;
+    }
+
+    #navigation2 {
+      background: #10AABE;
+      width: 165px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      border-bottom-right-radius: 31px;
+      border-bottom-left-radius: 31px;
+      box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: white;
+      font-size: 23px;
+      padding: 10px 7% 25px;
+      line-height: 25px;
+      text-decoration: none;
+      padding-right: inherit;
+    }
+
+    #navigation2 a {
+      text-decoration: none;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: white;
+      font-size: 23px;
+    }
+
+    #navigation2 a:hover {
+      color: #2f1111;
+      background: #ff0;
+    }
+
+    #navigation3 {
+      background: #10AABE;
+      width: 165px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      border-bottom-right-radius: 31px;
+      border-bottom-left-radius: 31px;
+      box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: white;
+      font-size: 23px;
+      padding: 10px 7% 25px;
+      line-height: 25px;
+      text-decoration: none;
+      padding-right: inherit;
+    }
+
+    #navigation3 a {
+      text-decoration: none;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: white;
+      font-size: 23px;
+    }
+
+    #navigation3 a:hover {
+      color: #2f1111;
+      background: #ff0;
+    }
+
+    #navigation4 {
+      background: #10AABE;
+      width: 165px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      border-bottom-right-radius: 31px;
+      border-bottom-left-radius: 31px;
+      box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: white;
+      font-size: 23px;
+      padding: 10px 7% 25px;
+      line-height: 25px;
+      text-decoration: none;
+    }
+
+    #navigation4 a {
+      text-decoration: none;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: white;
+      font-size: 23px;
+    }
+
+    #navigation4 a:hover {
+      color: #2f1111;
+      background: #ff0;
+    }
+
+    #navigation5 {
+      background: #a8ce32;
+      width: 165px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      border-bottom-right-radius: 31px;
+      border-bottom-left-radius: 31px;
+      box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: #000;
+      font-size: 23px;
+      padding: 10px 7% 25px;
+      line-height: 25px;
+    }
+
+    #navigation5 a {
+      text-decoration: none;
+      font-family: "EigerdalsHeavy", Sans-serif;
+      color: rgb(3, 74, 78);
+      font-size: 23px;
+    }
+
+    #navigation5 a.hover {
+      color: #2f1111;
+      background: #ff0;
+    }
+
+    #footer {
+      width: 1200px;
+      height: 320px;
+      background-color: black;
+      float: left;
+      /*padding-right: 100%;*/
+      /*padding-left: 100%; Não consigo puxar o padding para o lado esquerdo*/
+    }
+
+    #footerBar1-1 {
+      width: 1200px;
+      height: 110px;
+      background-color: transparent;
+      float: left;
+      margin: 20px;
+    }
+
+    #followButtom {
+      width: 180px;
+      height: 30px;
+      background-image: url('https://ya-webdesign.com/transparent250_/twitter-follow-button-png-14.png');
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <!--start container-->
+
+    <div id="topBAR">
+      <div id="topBARimg"></div>
+    </div>
+
+    <div id="logosBAR">
+      <div id="logosBARsocial">
+        <a href="https://lbp.me/home/">
+          <div id="social0"></div>
+        </a>
+        <a href="https://www.facebook.com/littlebigplanet">
+          <div id="social1"></div>
+        </a>
+        <a href="https://twitter.com/LittleBigPlanet">
+          <div id="social2"></div>
+        </a>
+        <a href="">
+          <div id="social3"></div>
+        </a>
+        <div id="social4"><a href=""></a></div>
+      </div>
+    </div>
+
+    <div id="linkBUTTONBar">
+      <!--Start linkBUTTONBar-->
+
+      <div id="linkBUTTONimg"></div>
+
+      <div id="linkBUTTONnavigation">
+        <!--Start linkBUTTONnavigation-->
+
+        <div id="linkBUTTON1">
+          <!--link button1 inserts here-->
+
+          <div id="linkBUTTON1-1"><a href="#"><strong>About</strong></a></div>
+          <div id="linkBUTTON1-2"><a href="#"> <strong>News</strong></a></div>
+          <div id="linkBUTTON1-3"><a href="#"><strong>Help!</strong></a></div>
+        </div>
+
+        <div id="linkBUTTON2">
+          <!--link button2 inserts here-->
+          <div id="linkBUTTON2-1"><a href="#"><strong>Community</strong></a></div>
+          <div id="linkBUTTON2-2"><a href="#"><strong>Games</strong></a></div>
+        </div>
+
+        <div id="linkBUTTON3">
+          <!--link button3 inserts here-->
+          <div id="linkBUTTON3-1"><a href="#"><strong>Game Add-ons</strong></a></div>
+          <div id="linkBUTTON3-2"><a href="#"><strong>Media</strong></a></div>
+        </div>
+      </div>
+      <!--End linkBUTTONnavigation-->
+
+      <div id="bannerIMAGE"><img src="https://littlebigplanet.playstation.com/sites/default/files/hp-sackboys.png"></p>
+      </div>
+    </div>
+    <!--End linkBUTTONBar-->
+    <div id="mainBANNERContaineir">
+      <div id="BANNER"></div>
+    </div>
+
+    <div id="navigationContainer">
+      <!--main banner inserts here-->
+      <div id="navigation">
+        <div class="navigationButtom">
+          <div id="navigation1"><a href="assig8.1.htm"><strong>The Journey Home</strong></a></div>
+        </div>
+
+        <div class="navigationButtom">
+          <div id="navigation2"><a href="assig8.2.htm"> <strong>Order LBP3 Today<strong></a></div>
+        </div>
+
+        <div class="navigationButtom">
+          <div id="navigation3"><a href="assig8.3.htm"><strong>Learn More About LBP3<strong></a></div>
+        </div>
+
+        <div class="navigationButtom">
+          <div id="navigation4"><a href="assig8.4.htm"><strong>LBP Youtube Channel</strong></a></div>
+        </div>
+
+        <div class="navigationButtom">
+          <div id="navigation5" style="position:relative;left:86px"><a href="assig8.5.htm"><strong>Recent
+                LittleBigNews</strong></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="footerBar1-1"><a href="https://twitter.com/explore">
+          <div id="followButtom"></div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <!--end container-->
+</body>
+
+</html>
+
+<!-- html.en body.ltr.ready.hcount.count-ready div#widget div.btn-o a#follow-button.btn
+#follow-button
+#follow-button
+<a id="follow-button" class="btn" title="Follow LittleBigPlanet (@littlebigplanet) on Twitter"
+  href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Flittlebigplanet.playstation.com%2F&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=littlebigplanet&amp;tw_p=followbutton"><i></i><span
+    class="label" id="l">Follow <b>@littlebigplanet</b></span></a> -->
