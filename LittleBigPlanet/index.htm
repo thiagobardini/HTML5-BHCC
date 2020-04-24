@@ -6,32 +6,35 @@
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title></title>
+  <title>LittleBigPlanet II</title>
 
-  <style media="screen">
+  <style>
     html {
       color: white;
       background-image: url(https://littlebigplanet.playstation.com/sites/default/files/lbp-hp-bg.png);
       background-repeat: no-repeat;
       background-position: center;
+      background-size: contain;
     }
+
+    /* REVER O HTML -> IMAGEM DO FUNDO*/
 
     body {
       background: radial-gradient(rgba(186, 211, 42, 0.9)10%, rgba(186, 211, 42, 0)60%, rgba(12, 157, 166, 0.9)90%);
-      margin-right: auto;
-      margin-left: auto;
+      margin: 0;
     }
 
     #container {
       width: 1200px;
-      height: 1503px;
-      /*may change*/
+      height: 1548px;
+      /*SE EU MUDO PARA AUTO, BACKGROUND COLOR GRADIAENTE SOME*/
       background-color: transparent;
       margin-left: auto;
       margin-right: auto;
     }
 
     #topBAR {
+      /*HOLDER*/
       width: 1200px;
       height: 40px;
       float: left;
@@ -41,15 +44,16 @@
 
     #topBARimg {
       background-image: url('https://4.bp.blogspot.com/-m4CHKgGIQug/XpjuX8WvXLI/AAAAAAAABeg/5a0_snnhnP05bvDkLiyuxN9knwBgNtoMgCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-04-16%2Bat%2B7.45.59%2BPM.png');
-      width: 100px;
+      width: 102px;
       height: 40px;
       margin-left: 1080px;
       background-size: cover;
-      < !-- DEU CERTO,
-      MAS ESTA REPETIDO A IMAGEM NO FUNDO EU AJUSTEI PRA FICAR NO MESMO TAMANHO-->
+      /*DEU CERTO,
+      MAS ESTA REPETIDO A IMAGEM NO FUNDO EU AJUSTEI PRA FICAR NO MESMO TAMANHO*/
     }
 
     #logosBAR {
+      /*HOLDER*/
       width: 1200px;
       height: 70px;
       background-color: transparent;
@@ -64,17 +68,9 @@
       border-radius: 0 0 1em 1em;
       float: right;
       background-size: contain;
-    }
-
-    #logosBARsocial {
-      width: 520px;
-      height: 70px;
-      background-color: rgba(12, 157, 166, 0.9);
-      border-radius: 0 0 1em 1em;
-      float: right;
-      background-size: contain;
       display: inline-block;
     }
+
 
     #social0 {
       width: 50px;
@@ -126,6 +122,7 @@
     }
 
     #linkBUTTONBar {
+      /*HOLDER*/
       width: 1200px;
       height: 450px;
       background-color: transparent;
@@ -137,7 +134,6 @@
       height: 450px;
       background-color: transparent;
       float: right;
-      position: relative;
     }
 
     #linkBUTTON1 {
@@ -392,13 +388,6 @@
       float: left;
     }
 
-    #navigationContainer {
-      width: 1200px;
-      height: 120px;
-      background-color: transparent;
-      float: left;
-    }
-
     #BANNER {
       width: 1000px;
       height: 470px;
@@ -414,6 +403,12 @@
       box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 2px 2px 2px 2px;
     }
 
+    #navigationContainer {
+      width: 1200px;
+      height: 120px;
+      background-color: transparent;
+      float: left;
+    }
 
     #navigation {
       width: 1032px;
@@ -581,7 +576,7 @@
 
     #footer {
       width: 1200px;
-      height: 320px;
+      height: 355px;
       background-color: black;
       float: left;
       /*padding-right: 100%;*/
@@ -589,7 +584,7 @@
     }
 
     #footerBar1-1 {
-      width: 1200px;
+      width: 1160px;
       height: 110px;
       background-color: transparent;
       margin-top: 20px;
@@ -655,39 +650,148 @@
 
     #footerBar1-2 {
       width: 1200px;
-      height: 20px;
+      height: auto;
       background-color: transparent;
       margin-right: 20px;
       margin-top: 20px;
     }
 
     #footerBar1-2 a {
-      color: #555;
-      background-color: transparent;
-      font-size: 12px;
+      color: #999999;
+      font-size: 0.8125em;
+      line-height: 0.625em;
       text-decoration: none;
       width: auto;
-      height: 40px;
       font-family: arial;
       float: right;
+      margin-right: 20px;
     }
 
     #footerBar1-2 a:hover {
-      color: white;
-      background-color: transparent;
+      text-decoration: underline;
     }
 
     #footerBar1-3 {
-      width: 1200px;
-      height: 190px;
+      width: 1160px;
+      height: auto;
       Background-color: transparent;
       float: left;
-      margin-left: 80px;
-      font-line: "EffraRegular", "Helvetica Neue", Helvetica, Sans-serif;
-      font-size: 0.8em;
+      margin-left: 20px;
+      margin-top: 0;
+      margin-right: 20px;
+      font-family: "EffraRegular", "Helvetica Neue", Helvetica, Sans-serif;
+      font-size: 1em;
       color: #555;
       line-height: 120%;
       text-align: center;
+    }
+
+    /* .topnavbar {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      #container {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+
+      #topBAR,
+      /*holder0*/
+
+    #topBARimg,
+    /*dentro holder0 -> sony logo*/
+
+    #logosBAR,
+    /*holder1*/
+
+    #logosBARsocial,
+    /*dentro holder1 insider logobar*/
+    #social0,
+    #social1,
+    #social2,
+    #social3,
+    #social4,
+
+    #linkBUTTONBar,
+    /*holder2*/
+    #linkBUTTONnavigation,
+    /*dentro holder2->Holder da Navigation ->holder dentro do linkButtonBar*/
+
+    #linkBUTTON1,
+    /*dentro holder2->holderNavigation 1 -> about/news/help!*/
+    #linkBUTTON1-1,
+    #linkBUTTON1-2,
+    #linkBUTTON1-3,
+
+    #linkBUTTON2,
+    /*dentro holder2->holderNavigation2 -> communitty/games*/
+    #linkBUTTON2-1,
+    #linkBUTTON2-2,
+
+    #linkBUTTON3,
+    /*dentro holder2->holderNavigation3 -> games add-ons/media*/
+    #linkBUTTON3-1,
+    #linkBUTTON3-2,
+
+    #linkBUTTONimg,
+    /*dentro holder2->littleBigPlanet.com imagem do fundo*/
+
+    #bannerIMAGE,
+    /*dentro holder2->dentro do LinkButtonBar/holder/ -> imagem q segura o banner*/
+
+    #mainBANNERContaineir,
+    /*holder3*/
+    #BANNER
+    /*dentro holder3-> imagem fundo*/
+
+    #navigationContainer
+    /*holder4*/
+
+    #navigation
+    /*dentro holder4*/
+
+    .navigationButtom
+    /*dentro holder4-> dentro do navigation -> botao holder*/
+
+    #navigation1,
+    #navigation2,
+    #navigation3,
+    #navigation4,
+    #navigation5
+    /*dentro holder4-> dentro do navigation -> dentro botao holder*/
+
+    #footer
+    /*holder5*/
+
+    #footerBar1-1,
+    /*dentro holder5 -> holder dos logos do footer*/
+
+    #followButtom,
+    #ESRBlogo,
+    #ESRBcert,
+    #PEGIlogo,
+    #MMlogo,
+    #PSlogo,
+    #SONYlogo2
+    /*dentro holder5 -> holder dos logos do footer -> botoes*/
+
+    #footerBar1-2
+    /*dentro holder5 -> abaixo dos logos footer -> links about us/ terms and conditions /privacy policy*/
+
+    #footerBar1-3
+    /*dentro holder5 -> abaixo dos logos footer -> abaiso dos links -> <p>*/
+
+
+    */
     }
   </style>
 </head>
@@ -742,7 +846,7 @@
         </div>
 
         <div id="linkBUTTON3">
-          <!--link button3 inserts here-->
+
           <div id="linkBUTTON3-1"><a href="#"><strong>Game Add-ons</strong></a></div>
           <div id="linkBUTTON3-2"><a href="#"><strong>Media</strong></a></div>
         </div>
@@ -807,7 +911,7 @@
         </a>
       </div>
       <div id="footerBar1-2">
-        <a href=" #"> About Us </a><a href="#"> Terms and conditions </a><a href="#"> Privacy Policy </a>
+        <a href=" #"> Privacy Policy</a> <a href="#">Terms and conditions</a><a href="#"> About Us </a>
       </div>
       <div id="footerBar1-3">
 
@@ -817,6 +921,11 @@
           <br>
           LittleBigPlanet PS Vita™ rated E with Mild Cartoon Violence
         </p>
+        <br>
+        <p> Website © Sony Computer Entertainment Europe. “PlayStation”, “PS3”, and “” are trademarks or registered
+          trademarks of Sony Computer Entertainment Inc. Also, “” is a trademark of the same company. “SONY” and “” are
+          registered trademarks of Sony Corporation. “LittleBigPlanet”, “Sackboy” and “Sackgirl” are trademarks or
+          registered trademarks of Sony Computer Entertainment Europe. All rights reserved.</p>
       </div>
 
     </div>
