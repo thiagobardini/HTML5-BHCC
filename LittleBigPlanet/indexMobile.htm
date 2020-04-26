@@ -25,7 +25,7 @@
     }
 
     #container {
-      width: 1200px;
+      width: 100%;
       height: 1548px;
       /*SE EU MUDO PARA AUTO, BACKGROUND COLOR GRADIAENTE SOME*/
       background-color: transparent;
@@ -35,9 +35,9 @@
 
     #topBAR {
       /*HOLDER */
-      width: 1200px;
+      width: 100%;
       height: 40px;
-      float: left;
+      float: right;
       background-color: black;
       padding: 5px 0;
     }
@@ -46,15 +46,14 @@
       background-image: url('https://4.bp.blogspot.com/-m4CHKgGIQug/XpjuX8WvXLI/AAAAAAAABeg/5a0_snnhnP05bvDkLiyuxN9knwBgNtoMgCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-04-16%2Bat%2B7.45.59%2BPM.png');
       width: 102px;
       height: 40px;
-      margin-left: 1080px;
       background-size: cover;
-      /*DEU CERTO,
-      MAS ESTA REPETIDO A IMAGEM NO FUNDO EU AJUSTEI PRA FICAR NO MESMO TAMANHO*/
+      float: right;
+      margin-right: 10%;
     }
 
     #logosBAR {
       /*HOLDER*/
-      width: 1200px;
+      width: 100%;
       height: 70px;
       background-color: transparent;
       float: left;
@@ -69,6 +68,7 @@
       float: right;
       background-size: contain;
       display: inline-block;
+      margin-right: 10%;
     }
 
 
@@ -123,10 +123,12 @@
 
     #linkBUTTONBar {
       /*HOLDER*/
-      width: 1200px;
+      width: 80%;
       height: 450px;
       background-color: transparent;
       float: left;
+      margin-left: 10%;
+      margin-right: 10%;
     }
 
     #linkBUTTONnavigation {
@@ -373,6 +375,7 @@
       float: left;
       background-image: url(https://littlebigplanet.playstation.com/sites/all/themes/lbp/images/optimized/logo/logo-blue.png);
       position: absolute;
+      margin-left: 10%;
     }
 
     #bannerIMAGE {
@@ -871,13 +874,14 @@
 </head>
 
 <body>
+  <div id="topBAR">
+    <div id="topBARimg"></div>
+  </div>
 
   <div id="container">
     <!--start container-->
 
-    <div id="topBAR">
-      <div id="topBARimg"></div>
-    </div>
+
 
     <div id="topnavbar" class="topnavbar">
       <!--start mobile1 hamburguer -->
