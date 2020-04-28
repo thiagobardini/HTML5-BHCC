@@ -153,7 +153,7 @@
     }
 
     .button-row {
-      width: 4  80px;
+      width: 4 80px;
     }
 
     #linkBUTTON1 {
@@ -607,7 +607,7 @@
 
     #footer {
       width: 100%;
-      height: 355px;
+      height: 420px;
       background-color: black;
       float: left;
       /*padding-right: 100%;*/
@@ -739,117 +739,116 @@
       display: none;
     }
 
-      .button {
-        padding: 10px;
+    .button {
+      padding: 10px;
+    }
+
+    #test,
+    #test2 {
+      margin: 0 auto;
+      width: fit-content;
+    }
+
+    #linkBUTTONresponsive {
+      position: relative;
+      display: none;
+      float: right;
+    }
+
+    #linkBUTTONresponsive a {
+      display: none;
+    }
+
+    #linkBUTTONresponsive a:first-child {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 120px;
+      padding: 8px;
+      background-color: #449da5;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    #newMainContainer {
+      display: none;
+    }
+
+    #mobile-footer {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      html {
+        background-image: url('https://littlebigplanet.playstation.com/sites/default/files/lbp3-bg2.jpg');
       }
 
-      #test, #test2 {
-        margin: 0 auto;
-        width: fit-content;
+      #container {
+        height: 2000px;
       }
 
-      #linkBUTTONresponsive {
-        position: relative;
+      #mainBANNERContainer {
         display: none;
-        float: right;
-      }
-
-      #linkBUTTONresponsive a {
-          display: none;
-      }
-
-      #linkBUTTONresponsive a:first-child {
-          float: none;
-          display: block;
-          text-align: left;
-          width: 120px;
-          padding: 8px;
-          background-color: #449da5;
-          font-weight: bold;
-          font-size: 18px;
       }
 
       #newMainContainer {
+        display: block;
+        width: 100%;
+        float: left;
+      }
+
+      .new-banner {
+        width: 350px;
+        height: 200px;
+        border: 5px solid white;
+        margin: 50px auto;
+        background-size: cover;
+      }
+
+      #linkBUTTONnavigation {
         display: none;
+      }
+
+      #linkBUTTONresponsive {
+        display: block;
+        width: 200px;
+        cursor: pointer;
+      }
+
+      #linkBUTTONresponsive.responsive a:not(:first-child) {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 120px;
+        padding: 8px;
+        background-color: #449da5;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      #linkBUTTONresponsive.responsive a:not(:first-child):hover {
+        background-color: #ffff00;
+        color: black;
+      }
+
+      #footer-container {
+        display: none;
+      }
+
+      #footer {
+        height: fit-content;
       }
 
       #mobile-footer {
-        display: none;
+        display: block;
       }
 
-      @media screen and (max-width: 1460px) {
-
-        html {
-          background-image: url('https://littlebigplanet.playstation.com/sites/default/files/lbp3-bg2.jpg');
-        }
-
-        #container {
-          height: 2000px;
-        }
-
-        #mainBANNERContainer {
-          display: none;
-        }
-
-        #newMainContainer {
-          display: block;
-          width: 100%;
-          float: left;
-        }
-
-        .new-banner {
-          width: 350px;
-          height: 200px;
-          border: 5px solid white;
-          margin: 50px auto;
-          background-size: cover;
-        }
-
-        #linkBUTTONnavigation {
-          display: none;
-        }
-
-        #linkBUTTONresponsive {
-          display: block;
-          width: 200px;
-          cursor: pointer;
-        }
-
-        #linkBUTTONresponsive.responsive a:not(:first-child) {
-          float: none;
-          display: block;
-          text-align: left;
-          width: 120px;
-          padding: 8px;
-          background-color: #449da5;
-          font-weight: bold;
-          font-size: 18px;
-        }
-
-        #linkBUTTONresponsive.responsive a:not(:first-child):hover {
-          background-color:#ffff00;
-          color: black;
-        }
-
-        #footer-container {
-          display: none;
-        }
-
-        #footer {
-          height: fit-content;
-        }
-
-        #mobile-footer {
-          display: block;
-          min-height: 200px;
-        }
-
-        .mobile-footer-element {
-          display: inline-block;
-          height: 100px;
-          max-width: 300px;
-        }
+      .mobile-footer-element {
+        height: 100px;
+        max-width: 300px;
       }
+    }
   </style>
 </head>
 
@@ -886,15 +885,15 @@
             <a href="https://lbp.me/home/">
               <div id="social0"></div>
               <a href="https://www.facebook.com/littlebigplanet">
-              <div id="social1"></div>
-            </a>
-            <a href="https://twitter.com/LittleBigPlanet">
-              <div id="social2"></div>
-            </a>
-            <a href="">
-              <div id="social3"></div>
-            </a>
-            <div id="social4"><a href=""></a></div>
+                <div id="social1"></div>
+              </a>
+              <a href="https://twitter.com/LittleBigPlanet">
+                <div id="social2"></div>
+              </a>
+              <a href="">
+                <div id="social3"></div>
+              </a>
+              <div id="social4"><a href=""></a></div>
           </div>
         </div>
         <br>
@@ -902,23 +901,23 @@
 
         <div id="linkBUTTONnavigation">
           <!--Start linkBUTTONnavigation-->
-  
+
           <div id="linkBUTTON1" class="button-row">
             <!--link button1 inserts here-->
-  
+
             <div id="linkBUTTON1-1"><a href="#" class="button"><strong>About</strong></a></div>
             <div id="linkBUTTON1-2"><a href="#"> <strong>News</strong></a></div>
             <div id="linkBUTTON1-3"><a href="#" class="button"><strong>Help!</strong></a></div>
           </div>
-  
+
           <div id="linkBUTTON2" class="button-row">
             <!--link button2 inserts here-->
             <div id="linkBUTTON2-1"><a href="#" class="button"><strong>Community</strong></a></div>
             <div id="linkBUTTON2-2"><a href="#" class="button"><strong>Games</strong></a></div>
           </div>
-  
+
           <div id="linkBUTTON3" class="button-row">
-  
+
             <div id="linkBUTTON3-1"><a href="#" class="button"><strong>Game Add-ons</strong></a></div>
             <div id="linkBUTTON3-2"><a href="#" class="button"><strong>Media</strong></a></div>
           </div>
@@ -947,7 +946,7 @@
         <div id="test">
           <img src="https://littlebigplanet.playstation.com/sites/default/files/hp-sackboys.png"></p>
         </div>
-      </div>  
+      </div>
       <div id="test2">
         <div id="BANNER"></div>
       </div>
@@ -979,19 +978,24 @@
     </div>
 
     <div id="newMainContainer">
-      <div class="new-banner" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRz0ZXyE7n7mM4eykqWm2bZ8XAuUTFPgzuziqcJuuarspDBK9p&usqp=CAU)">
+      <div class="new-banner"
+        style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRz0ZXyE7n7mM4eykqWm2bZ8XAuUTFPgzuziqcJuuarspDBK9p&usqp=CAU)">
         Banner1
       </div>
-      <div class="new-banner" style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/order-now.png?itok=-5BoOChn&timestamp=1437150222)">
+      <div class="new-banner"
+        style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/order-now.png?itok=-5BoOChn&timestamp=1437150222)">
         Banner1
       </div>
-      <div class="new-banner" style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/journey-home.jpg?itok=43ciNNHc&timestamp=1437150182)">
+      <div class="new-banner"
+        style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/journey-home.jpg?itok=43ciNNHc&timestamp=1437150182)">
         Banner1
       </div>
-      <div class="new-banner" style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/lbp3-learn-more.jpeg?itok=_sQZu827&timestamp=1437150358);">
+      <div class="new-banner"
+        style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/lbp3-learn-more.jpeg?itok=_sQZu827&timestamp=1437150358);">
         Banner1
       </div>
-      <div class="new-banner" style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/youtube-channel.jpeg?itok=iAiY6bRY&timestamp=1437150396)">
+      <div class="new-banner"
+        style="background-image: url(https://littlebigplanet.playstation.com/sites/default/files/styles/responsive_carouselcustom_lbp_mobile_2x/public/herobanner/youtube-channel.jpeg?itok=iAiY6bRY&timestamp=1437150396)">
         Banner1
       </div>
 
@@ -1082,7 +1086,7 @@
           <a href="https://www.playstation.com/">
             <div id="SONYlogo2"></div>
           </a>
-        </div>   
+        </div>
       </div>
 
 
