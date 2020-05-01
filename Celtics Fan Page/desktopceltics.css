@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  background-image: url(https://1.bp.blogspot.com/-NCC61IZ7WP0/XmRFRktzY7I/AAAAAAAABSg/3WKsVSSFZTgx-fjdOuaqdy3T8jj0lsmegCLcBGAsYHQ/s1600/wood-bkgrd.jpg);
+}
+
+
+#container {
+  width: 1200px;
+  height: 700px;
+  background-color: lightblue;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#menuBar
+{
+background-color:red;
+display:none;
+}
+
+#menuNAVBar
+{
+display:none;
+}
+
+#menuNAVBarLINKS
+{
+display:none;
+}
