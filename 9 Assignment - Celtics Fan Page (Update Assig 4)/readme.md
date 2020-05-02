@@ -10,9 +10,7 @@
 ![Desktop Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png)
 
 ## Mobile Version
-![Mobile Version](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/Mobile-Layout9Assig.png)
-
-![Mobile Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png)
+![Mobile Version](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/Mobile-Layout9Assig.png)![Mobile Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png)
 
 
 
