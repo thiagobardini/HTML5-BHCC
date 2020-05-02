@@ -7,10 +7,7 @@
 ## Layout
 ![Desktop Version](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/%20Desktop-9Assig.png)
   
-
-  <p align="right">
-  <img width="460" height="300" src="https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png">
-</p>
+![Index Page](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png)
 
 ## Desktop - Index Version and Layout
 <p align="left">
