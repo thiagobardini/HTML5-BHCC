@@ -4,18 +4,15 @@
 ### :neckbeard: Programming Languages: HTML, CSS and JavaScript.
 - [Click here to see the full website](http://media15live.com/studentsUpload/Tbardini_1586637064/indexExoticTravel.htm)
 
-## Layout
+## Desktop Version
 ![Desktop Version](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/%20Desktop-9Assig.png)
   
-![Index Page](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png)
+![Desktop Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png)
 
-## Desktop - Index Version and Layout
-<p align="left">
-  <img width="300" height="700" src="https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/Mobile-Layout9Assig.png">
-</p>
-<p align="right">
-  <img width="300" height="700" src="https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png">
-</p>
+## Mobile Version
+![Mobile Version](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/Mobile-Layout9Assig.png)
+
+![Mobile Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png)
 
 
 
