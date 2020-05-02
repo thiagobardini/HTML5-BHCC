@@ -6,8 +6,9 @@
 ## Desktop - Index Version and Layout
 <p align="left">
   <img width="460" height="300" src="https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/%20Desktop-9Assig.png">
-</p>
-<p align="right">
+  </p>
+
+  <p align="right">
   <img width="460" height="300" src="https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png">
 </p>
 
