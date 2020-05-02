@@ -1,6 +1,6 @@
 # 9 Assignment
 - Required to update the Assignment 4 (Celtics Fan Site). Updated the original desktop version to both the desktop and mobile versions.
-## CODE
+
 ### :neckbeard: Programming Languages: HTML, CSS and JavaScript.
 - [Click here to see the full website](http://www.media15live.com/studentsUpload/Bardini_1588447428/)
 
