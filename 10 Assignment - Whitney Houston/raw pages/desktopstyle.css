@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  background-color: black;
+  font-family: arial;
+}
+
+p
+{
+z-index: inherit -1;
+font-size:35px;
+text-align: left;
+position:absolute;
+width:20%;
+padding-top:10px;
+color:white;
+font-family:"Lato";
+margin-left: 10px;
+}
+
+#container {
+  background-color:transparent;
+  width:800px;
+  height: 1500px;
+  margin: 20px auto;
+}
+
+p
+{
+z-index: inherit -1;
+font-size:35px;
+text-align: left;
+position:absolute;
+width:20%;
+padding-top:10px;
+color:white;
+font-family:"Lato";
+margin-left: 10px;
+}
+
+#menuBar {
+  display: none;
+}
+
+#menuNAVBar {
+  display: none;
+}
+
+#menuNAVBarLINKS {
+  display: none;
+}
+
+#menuNAVBarLINKS a{
+  display: none;
+}
+
+#HolderTop {
+  width:800px;
+  height: 105px;
+  float: left;
+  background-color: black;
+}
+
+#top {
+  width:230px;
+  height:90px;
+  background-image: url(https://fanart.tv/fanart/music/0307edfc-437c-4b48-8700-80680e66a228/hdmusiclogo/houston-whitney-546277abc9ff4.png);
+  background-size: cover;
+  margin: 5px auto;
+}
+
+#content {
+  width: 800px ;
+  height: auto;
+  background-color: red ;
+}
+
+/* #HoldDisco {
+  width: 800px;
+  height:34px;
+  background-color: black;
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 10px;
+} */
+
+#disco {
+  width:51%;
+  height: 51px;
+  background-image: url(https://www.magnusulfstedt.com/____impro/1/onewebmedia/Discography.jpg);
+  background-size: cover;
+  margin:5px auto;
+  padding-bottom: 5px;
+}
+
+@keyframes slideshow
+{
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%}
+}
+
+#slider
+{
+  overflow:hidden; 
+  width:300px;
+  height:290px;
+  background-size: cover;
+  margin:5px auto;
+  padding-bottom: 5px;
+  border:5px;
+  border-radius: 5px;
+  float:left;
+  padding-top: 25px;
+}
+#slider figure img
+{
+    width:20%;
+    float:left;
+}
+#slider figure
+{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+}
+
+#TextSlider
+{
+  overflow:hidden; 
+  width:435px;
+  height:315px;
+  margin:5px auto;
+  padding-bottom: 5px;
+  border:5px;
+  border-radius: 5px;
+  color: white;
+  float: left;
+  padding-left: 20px;
+  background-color:black;
+}
+#TextSlider figure h3
+{
+    width:20%;
+    float:left;
+
+}
+#TextSlider figure
+{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+}
+
+
+
