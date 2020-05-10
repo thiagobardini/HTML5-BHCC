@@ -14,6 +14,8 @@
 ![Desktop Layout]()
 
 ## Mobile Version
+### @media screen and (max-width:600px)
+
 ![Mobile Version1](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileWhitney1.png) ![Mobile Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileWhitney2.png)
 
 ![Mobile Layout]()
