@@ -14,8 +14,9 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 899px 950px;
+  background-size: 900px 1290px;
 }
+
 
 #container {
   background-color:transparent;
@@ -23,6 +24,7 @@ body {
   height: auto;
   margin: 20px auto;
 }
+
 
 #menuBar {
   display: none;
@@ -41,7 +43,7 @@ body {
   width:800px;
   height: 105px;
   float: left;
-  background-color:transparent;
+  background-color: transparent;
 }
 
 #top {
@@ -62,51 +64,94 @@ body {
   border: 1px solid #be9a5c;
 }
 
-
-@keyframes slideshow
-{
-	10% {left: 0;}
-	20% {left: 0;}
-	30% {left: -100%;}
-	40% {left: -100%;}
-	50% {left: -200%;}
-	60% {left: -200%;}
-	70% {left: -300%;}
-	80% {left: -300%;}
-	90% {left: -400%;}
-	100% {left: -400%}
+#disco {
+  width:800px;
+  height: 262px;
+  background-image: url(https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/06/timeline_hero-1024x512.jpg);
+  background-size: cover;
+  float: left;
 }
+#disco h1 {
+  color: #000;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 52px;
+  margin-top:200px;
+  margin-left: 10px;
+  text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;
+}
+
+
 
 #slider
 {
-  overflow:hidden; 
-  width:790px;
-  height:490px;
+  /* overflow:hidden;  */
+  width:445px;
+  height:auto;
   background-size: cover;
   margin:5px auto;
   padding-bottom: 5px;
   border:5px;
   border-radius: 5px;
   float:left;
+  padding-top: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
 }
 
-#slider figure img
-{
-    width:20%;
-    float:left;
-}
-#slider figure
-{
-    position:relative;
-    width:500%;
-    margin:0;
-    left:0;
-    text-align:left;
-    animation:20s slideshow infinite
+#slider img {
+  width: 445px;
+  height: 470px;
+  margin: 20px; 
 }
 
+
+#TextSlider
+{
+  /* overflow:hidden;  */
+  width:315px;
+  height:auto;
+  margin:0px auto;
+  margin-top:20px;
+  float: left;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.table1
+{
+  border: 0px solid gray;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #676867;
+  border-radius:10px;
+  line-height: 10;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+}
+
+#BOX6 {
+  width: 315px;
+  height: auto;
+  background-color:transparent;
+  float: left;
+  
+}
+
+#submitbutton
+{
+  border 1px solid red;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: black;
+  border-radius:10px;
+  background-color: #d09d1f;
+  background-image: linear-gradient(315deg, #d09d1f 0%, #c6920d 74%);
+  font-family: "EigerdalsHeavy", Sans-serif;
+  font-size: 23px;
+}
 
 #navigation {
   width: 800px;
@@ -128,8 +173,8 @@ body {
 }
 
 #navigation1 {
-  background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
   width: 150px;
   height: 20px;
   margin-right: 5px;
@@ -149,12 +194,13 @@ body {
 #navigation1 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color: whitesmoke;
+  color: #000;
   font-size: 19px;
 }
 
-#navigation1 a.hover {
-  background: none;
+#navigation1:hover {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
 }
 
 #navigation2 {
@@ -179,16 +225,14 @@ body {
 #navigation2 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color: #000;
+  color:#000;
   font-size: 19px;
 }
 
 #navigation2:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
-  color:white;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
 }
-
 
 #navigation3 {
   background-color: #fec84e;
@@ -218,12 +262,13 @@ body {
 
 #navigation3:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  color:white;
 }
 
 #navigation4 {
-  background-color: #fec84e;
-  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   width: 150px;
   height: 20px;
   margin-right: 5px;
@@ -243,15 +288,14 @@ body {
 #navigation4 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color:#000;
+  color: whitesmoke;
   font-size: 19px;
 }
 
-#navigation4:hover {
-  background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
-}
 
+#navigation4 a.hover {
+  background: none;
+}
 
 #navigation5 {
   background-color: #fec84e;
@@ -329,7 +373,7 @@ body {
 }
 
 #spotfy {
-  width: 101px;
+  width: 100px;
   height: 36px;
   background-image: url('https://ya-webdesign.com/transparent250_/available-on-spotify-png-4.png');
   background-size: cover;
@@ -380,18 +424,19 @@ body {
   font-size: 1em;
 }
 
-
 @media screen and (max-width:600px){
 
+  
   body {
-    margin: 0px;
-    background-image: url(https://thumbs.dreamstime.com/b/royal-vintage-elegant-vertical-background-black-gold-classic-baroque-pattern-rococo-darkened-edges-royal-vintage-118505624.jpg);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: black;
-    background-size: 100% 1276px;
+  margin: 0px;
+  background-image: url(https://thumbs.dreamstime.com/b/royal-vintage-elegant-vertical-background-black-gold-classic-baroque-pattern-rococo-darkened-edges-royal-vintage-118505624.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  background-size: 100% 1276px;
   }
+
 
   #container {
     background-color: transparent;
@@ -451,7 +496,7 @@ body {
     width:100%;
     height: 135px;
     float: left;
-    background-color:transparent;
+    background-color: transparent;
     background-position: center;
     margin-top: 25px;
   }
@@ -466,41 +511,52 @@ body {
 
   #content {
     width: 92%;
-    height: auto;
+    height: 717px;
     color: white;
     float: left;
-    padding-left: 0px;
+    padding-left: 4px;
     background-color: black;
     border: 1px solid #be9a5c;
     margin-left: 20px;
   }
 
 
-  @keyframes slideshow {}
-
-  #slider {
-    overflow:hidden; 
-    width:98%;
-    height:337px;
-    background-size: cover;
-    margin:5px auto;
-    padding-bottom: 0px;
-    border:5px;
-    border-radius: 5px;
-    float: none;
-    padding-top: 0px;
-    margin-right:1%;
-    margin-left:1%;
-    margin-bottom: 0%;
+  #disco {
+    width:100%;
+    height: 166px;
   }
 
-  #slider figure {
-    position:relative;
-    width:500%;
-    margin:0;
-    left:0;
-    text-align:left;
-    animation:20s slideshow infinite
+  #disco h1 {
+  color: #000;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 38px;
+  margin-top:116px;
+  margin-left: 10px;
+  text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;  
+  }
+
+
+  #slider {
+    display: none;
+  }
+
+  /* #slider img {
+  width: 100%;
+  height: 470px;
+  margin: 20px;   
+  } */
+
+  #TextSlider
+  {
+    width:92%;
+    height:300px;
+    margin:5px auto;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    padding-left: 4px;
+    background-color:black;
   }
 
 
@@ -516,16 +572,13 @@ body {
     display: none;
   }
 
-
   #navigation2 {
     display: none;
   }
 
-
   #navigation3 {
     display: none;
   }
-
 
   #navigation4 {
     display: none;
@@ -561,12 +614,12 @@ body {
   }
 
   #facebook {
-  width: 35px;
-  height: 35px;
-  background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
-  background-size: cover;
-  float: left;
-  margin-top:6px;
+    width: 35px;
+    height: 35px;
+    background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
+    background-size: cover;
+    float: left;
+    margin-top:6px;
   }
 
   #instagram {
@@ -632,255 +685,45 @@ body {
     color: whitesmoke;
     font-size: 1em;
   }
-}
-
-@media screen and (max-width:378px){
-
-  body {
-    margin: 0px;
-    background-color: black;
-    font-family: arial;
-  }
-
-  #container {
-    background-color: transparent;
-    width:100%;
-    height: auto;
-    margin: 10px auto;
-  }
-
-  #menuBar {
-    display:block;/*show this item*/
-    height:30px;
-  }
 
 
-  #menuNAVBar {
-    width:100%;
-    background-color:transparent;
-    height:110px;
-    display:none;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-  #menuNAVBarLINKS {
-    width:100%;
-    background-color:transparent;
-    height:220px;
-    display:block;
-    float:right
-  }
-
-
-  #menuNAVBarLINKS a {
-    width: 100%;
-    line-height: 40px; 
-    text-decoration: none;
+  .table1
+  {
+    border: 0px solid gray;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #676867;
+    border-radius:10px;
     font-family: "EigerdalsHeavy", Sans-serif;
-    color: #000;    
-    background-color: #fec84e;
-    background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+    line-height: 10;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  }
+
+  #BOX6 {
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    float: left;
+  }
+
+  #submitbutton
+  {
+    border: 1px solid red;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: black;
+    border-radius:10px;
+    background-color:#fec84e;;
+    font-family: "EigerdalsHeavy", Sans-serif;
     font-size: 23px;
-    height: 40px;
-    float: left;
-    text-align: center;
-    position: relative;
-    border: 1px solid #be9a5c;
+
   }
 
-  #menuNAVBarLINKS a:hover {
-    background-color: #eb4511;
-    background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
-  }
-
-
-  #HolderTop {
-    width:100%;
-    height: 135px;
-    float: left;
-    background-color: black;
-    background-position: center;
-    margin-top: 25px;
-  }
-
-  #top {
-    width:75%;
-    height:110px;
-    background-image: url(https://fanart.tv/fanart/music/0307edfc-437c-4b48-8700-80680e66a228/hdmusiclogo/houston-whitney-546277abc9ff4.png);
-    background-size: cover;
-    margin-left: 15%;
-  }
-
-  #content {
-    width: 92%;
-    height: auto;
-    color: white;
-    float: left;
-    padding-left: 4px;
-    background-color: black;
-    border: 1px solid #be9a5c;
-    margin-left: 20px;
-  }
-
-
-
-  @keyframes slideshow {}
-
-  #slider {
-    overflow:hidden; 
-    width:100%;
-    height:200px;
-    background-size: cover;
-    margin:5px auto;
-    padding-bottom: 5px;
-    border:5px;
-    border-radius: 5px;
-    float: none;
-    padding-top: 0px;
-  }
-
-  #slider figure {
-    position:relative;
-    width:500%;
-    margin:0;
-    left:0;
-    text-align:left;
-    animation:20s slideshow infinite
-  }
-
-
-  #navigation {
-    display: none;
-  }
-
-  .navigationButtom {
-    display: none;
-  }
-
-  #navigation1 {
-    display: none;
-  }
-
-
-  #navigation2 {
-    display: none;
-  }
-
-
-  #navigation3 {
-    display: none;
-  }
-
-
-  #navigation4 {
-    display: none;
-  }
-
-  #navigation5 {
-    display: none;
-  }
-
-  #footer {
-    width: 100%;
-    height: 80px;
-    float:left;
-    font-family: 'bgMed',arial,helvetica,sans-serif;
-    background-color: transparent;
-    text-align: center;
-  }
-
-  #footer a{
-    text-decoration: none;
-    color:  #bcc9c4;
-  }
-
-  #footer a:hover {
-    text-decoration: underline;
-  }
-
-  #social {
-    width: 100%;
-    height: 30px;
-    margin-left: 5%;
-    margin-top: 20px;
-  }
-
-  #facebook {
-  width: 25px;
-  height: 25px;
-  background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
-  background-size: cover;
-  float: left;
-  margin-top:6px;
-  }
-
-  #instagram {
-    width: 25px;
-    height: 25px;
-    background-image: url('https://ya-webdesign.com/transparent250_/circle-instagram-logo-png-3.png');
-    background-size: cover;
-    float: left;
-    margin-left:10px;
-    margin-top:6px;
-  }
-
-  #spotfy {
-    width: 71px;
-    height: 25px;
-    background-image: url('https://ya-webdesign.com/transparent250_/available-on-spotify-png-4.png');
-    background-size: cover;
-    float: left;
-    margin-left:8px;
-    margin-top: 6px;
-  }
-
-  #youtube {
-    width: 25px;
-    height: 25px;
-    background-image: url('https://ya-webdesign.com/transparent250_/youtube-logo-png-transparent-2.png');
-    background-size: cover;
-    float: left;
-    margin-left:10px;
-    margin-top:6px;
-  }
-
-  #sony {
-    width: 88px;
-    height: 15px;
-    background-image: url('https://ya-webdesign.com/transparent250_/sony-logo-png-6.png');
-    background-size: cover;
-    float: left;
-    margin-left:10px;
-    margin-top:15px;
-  }
-
-
-  #amazon {
-    width: 56px;
-    height: 30px;
-    background-image: url('https://ya-webdesign.com/transparent250_/buy-on-amazon-png-18.png');
-    background-size: cover;
-    float: left;
-    margin-left:20px;
-    margin-top:2px;  
-  }
-
-  #copyrights {
-    width: 100%;
-    height: 40px;
-    color: whitesmoke;
-    margin:5px auto;
-    float:left;
-  }
-
-  #copyrights p {
-    color: whitesmoke;
-    font-size: 1em;
-  }
 }
-
 </style>
 </head>
 <body>
@@ -896,8 +739,7 @@ body {
       <a href="tourhistory.htm"><strong>Tour History</strong></a>
       <a href="discography.htm"><strong>Discography</strong></a>
       <a href="contactus.htm"><strong>Contact Us</strong></a>
-      <a href="https://whitneyhouston.shop.musictoday.com/store/"><strong>Store
-      </strong></a>
+      <a href="https://whitneyhouston.shop.musictoday.com/store/"><strong>Store</strong></a>
 		</div>
 	
 	</div><!-- End Mobile Menu -->
@@ -906,17 +748,40 @@ body {
   </div>
 
   <div id="content">
+    <div id="disco"><h1>Contact Us</h1></div>
+    <div id="TextSlider">
+  
+      <div id="table1" align="center">
+        Name <br>
+        <input type="text" name="Name" size="30" maxlength="20"
+        placeholder="Type your name" required>
+        <br><br>
+        Phone <br>
+        <input type="text" name="phone" size="30" maxlength="10" placeholder="xxx-xxx-xxxx" required>
+        <br><br>
+        Email <br>
+        <input type="text" size="30"  name="email" placeholder="Type your e-mail" required>
+        <br><br>
+        Gender: <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="male"> Male
+        <br><br>
+        Tell us about yourself
+        <br>
+        <textarea name="applicantinfo" rows="5" cols="30"></textarea>
+        <br><br>
+      </div>
 
+      <div id='BOX6'>
+        <p align="center">
+        <input id="submitbutton" type="submit" value="Submit">
+        </p>
+      </div>
+    </div>  
+    
     <div id="slider">
-      <figure> 
-        <img src="https://wallpapercave.com/wp/wp2079760.jpg"> 
-        <img src="https://wallpapercave.com/wp/wp2079767.jpg"> 
-        <img src="https://wallpapercave.com/wp/wp2079768.jpg">
-        <img src="https://wallpapercave.com/wp/wp2079775.jpg">
-        <img src="https://wallpapercave.com/wp/wp2079780.jpg">
-      </figure>
-    </div>   
 
+        <img src="https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/07/10221419800_Whitney_Chrome_018.jpg">      
+
+    </div>   
 
   </div>       
   <div id="navigation">

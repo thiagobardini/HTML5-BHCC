@@ -668,7 +668,7 @@
         <option value="Day: 11AM - 5PM">Day: 11AM - 5PM</option>
         <option value="Night: 5PM - 11PM">Night: 5PM - 11PM</option>
       </select>
-      <br><br
+      <br><br>
       Tell us about yourself:
       <br>
       <textarea name="applicantinfo" rows="5" cols="30"></textarea>

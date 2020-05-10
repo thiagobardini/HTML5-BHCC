@@ -1,0 +1,424 @@
+body {
+  margin: 0px;
+  background-color: black;
+  font-family: arial;
+}
+
+
+#container {
+  background-color:transparent;
+  width:800px;
+  height: 1500px;
+  margin: 20px auto;
+}
+
+
+#menuBar {
+  display: none;
+}
+
+#menuNAVBar {
+  display: none;
+}
+
+#menuNAVBarLINKS {
+  display: none;
+}
+
+
+#HolderTop {
+  width:800px;
+  height: 105px;
+  float: left;
+  background-color: black;
+}
+
+#top {
+  width:230px;
+  height:90px;
+  background-image: url(https://fanart.tv/fanart/music/0307edfc-437c-4b48-8700-80680e66a228/hdmusiclogo/houston-whitney-546277abc9ff4.png);
+  background-size: cover;
+  margin: 5px auto;
+}
+
+#content {
+  width: 800px ;
+  height: auto;
+  color: white;
+  float: left;
+  padding-left: 4px;
+  background-color: black;
+  border: 1px solid #be9a5c;
+}
+
+#disco {
+  width:73%;
+  height: 65px;
+  background-image: url(https://www.magnusulfstedt.com/____impro/1/onewebmedia/Discography.jpg);
+  background-size: cover;
+  margin:5px auto;
+  padding-bottom: 5px;
+}
+
+@keyframes slideshow
+{
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%}
+}
+
+#slider
+{
+  overflow:hidden; 
+  width:313px;
+  height:303px;
+  background-size: cover;
+  margin:5px auto;
+  padding-bottom: 5px;
+  border:5px;
+  border-radius: 5px;
+  float:left;
+  padding-top: 30px;
+  margin-left: 5px;
+  margin-bottom: 33px;
+}
+
+#slider figure img
+{
+    width:20%;
+    float:left;
+}
+#slider figure
+{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+}
+
+#TextSlider
+{
+  overflow:hidden; 
+  width:478px;
+  height:320px;
+  margin:5px auto;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: white;
+  float: left;
+  padding-left: 4px;
+  background-color:black;
+}
+#TextSlider figure h3
+{
+    width:20%;
+    float:left;
+}
+
+#TextSlider figure a
+{
+  text-decoration: none;
+  color:gray;
+  font-weight:normal;
+}
+
+#TextSlider figure a:hover
+{
+  text-decoration: underline;
+}
+
+#TextSlider figure
+{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+}
+
+#navigation {
+  width: 800px;
+  height: 120px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigationButtom {
+  display: inline-block;
+  width: 150px;
+  height: 120px;
+  margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  float: left;
+}
+
+#navigation1 {
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 60px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  padding: 22px 0% 25px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation1 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 19px;
+}
+
+#navigation1:hover {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+}
+
+#navigation2 {
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 60px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  padding: 22px 0% 25px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation2 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 19px;
+}
+
+#navigation2:hover {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  color:white;
+}
+
+
+#navigation3 {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 60px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  padding: 22px 0% 25px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation3 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: whitesmoke;
+  font-size: 19px;
+}
+
+#navigation3 a.hover {
+  background: none;
+}
+
+#navigation4 {
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 60px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  padding: 22px 0% 25px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation4 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color:#000;
+  font-size: 19px;
+}
+
+#navigation4:hover {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+}
+
+
+#navigation5 {
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  padding: 22px 0% 25px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation5 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 19px;
+}
+
+#navigation5:hover {
+  background-color: #f06543;
+  background-image: linear-gradient(315deg, #f06543 0%, #ffbe3d 74%);
+}
+
+
+#footer {
+  width: 800px;
+  height: 80px;
+  float:left;
+  font-family: 'bgMed',arial,helvetica,sans-serif;
+  background-color: transparent;
+  text-align: center;
+}
+
+#footer a{
+  text-decoration: none;
+  color:  #bcc9c4;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#social {
+  width: 800px;
+  height: 50px;
+  margin-left: 18%;
+}
+
+#facebook {
+  width: 35px;
+  height: 35px;
+  background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
+  background-size: cover;
+  float: left;
+  margin-top:6px;
+}
+
+#instagram {
+  width: 35px;
+  height: 35px;
+  background-image: url('https://ya-webdesign.com/transparent250_/circle-instagram-logo-png-3.png');
+  background-size: cover;
+  float: left;
+  margin-left:20px;
+  margin-top:6px;
+}
+
+#spotfy {
+  width: 100px;
+  height: 36px;
+  background-image: url('https://ya-webdesign.com/transparent250_/available-on-spotify-png-4.png');
+  background-size: cover;
+  float: left;
+  margin-left:20px;
+  margin-top: 5px;
+}
+
+#youtube {
+  width: 35px;
+  height: 35px;
+  background-image: url('https://ya-webdesign.com/transparent250_/youtube-logo-png-transparent-2.png');
+  background-size: cover;
+  float: left;
+  margin-left:20px;
+  margin-top:6px;
+}
+
+#sony {
+  width: 118px;
+  height: 20px;
+  background-image: url('https://ya-webdesign.com/transparent250_/sony-logo-png-6.png');
+  background-size: cover;
+  float: left;
+  margin-left:20px;
+  margin-top:15px;
+}
+
+#amazon {
+  width: 93px;
+  height: 50px;
+  background-image: url('https://ya-webdesign.com/transparent250_/buy-on-amazon-png-18.png');
+  background-size: cover;
+  float: left;
+  margin-left:20px;
+  margin-top:2px;  
+}
+
+#copyrights {
+  width: 800px;
+  height: 40px;
+  color: whitesmoke;
+  margin:5px auto;
+}
+
+#copyrights p {
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+
+
+
+
