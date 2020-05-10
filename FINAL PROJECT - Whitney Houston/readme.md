@@ -13,11 +13,11 @@
 
 ![Desktop Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopWhitney2.png)
 
-![Desktop Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopLayout9Assig.png)
+![Desktop Layout]()
 
 ## Mobile Version
 ![Mobile Version1](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileWhitney1.png)!
 
 ![Mobile Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileWhitney2.png)!
 
-![Mobile Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png)
+![Mobile Layout]()
