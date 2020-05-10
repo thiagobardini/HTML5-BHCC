@@ -6,10 +6,10 @@
 
 
 ### :neckbeard: Programming Languages: HTML, CSS and JavaScript.
-- [Click here to see the full website](http://www.media15live.com/studentsUpload/BARDINI_1588603374)
+- [Click here to see the full website](http://www.media15live.com/studentsUpload/Bardini_1589127851/)
 
 ## Desktop Version
-![Desktop Version1](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopWhitney1.png) ![Desktop Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopWhitney2.png)
+![Desktop Version1](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopWhitney1.png)  ![Desktop Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopWhitney2.png)
 
 ![Desktop Layout]()
 
