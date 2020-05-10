@@ -20,4 +20,4 @@
 
 ![Mobile Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileWhitney2.png)!
 
-[Mobile Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png)
+![Mobile Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobileLayout9Assig.png)
