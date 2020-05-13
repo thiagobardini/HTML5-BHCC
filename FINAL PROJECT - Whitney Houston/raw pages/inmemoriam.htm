@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 900px 1279px;
+  background-size: 899px 1070px;
 }
 
 
@@ -76,10 +76,11 @@ body {
 #disco {
   width:800px;
   height: 262px;
-  background-image: url(https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/06/timeline_hero-1024x512.jpg);
+  background-image: url(https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/06/music_hero-1024x512.jpg);
   background-size: cover;
   float: left;
 }
+
 #disco h1 {
   color: #000;
   font-family: 'Nunito Sans', sans-serif;
@@ -89,13 +90,25 @@ body {
   text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;
 }
 
-
+@keyframes slideshow
+{
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%}
+}
 
 #slider
 {
-  /* overflow:hidden;  */
-  width:445px;
-  height:auto;
+  overflow:hidden; 
+  width:350px;
+  height:340px;
   background-size: cover;
   margin:5px auto;
   padding-bottom: 5px;
@@ -107,55 +120,60 @@ body {
   margin-bottom: 5px;
 }
 
-#slider img {
-  width: 445px;
-  height: 470px;
-  margin: 20px; 
+#slider figure img
+{
+    width:20%;
+    float:left;
 }
-
+#slider figure
+{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+}
 
 #TextSlider
 {
-  /* overflow:hidden;  */
-  width:315px;
-  height:auto;
-  margin:0px auto;
-  margin-top:20px;
+  overflow:hidden; 
+  width:441px;
+  height:320px;
+  margin:5px auto;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: white;
   float: left;
-  font-size: 20px;
-  font-family: 'Nunito Sans', sans-serif;
+  padding-left: 4px;
+  background-color:black;
 }
-
-.table1
+#TextSlider figure h3
 {
-  border: 0px solid gray;
-  padding:10px;
-  color: #676867;
-  border-radius:10px;
-  line-height: 10;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+    width:20%;
+    float:left;
 }
 
-#BOX6 {
-  width: 315px;
-  height: auto;
-  background-color:transparent;
-  float: left;
-  
-}
-
-#submitbutton
+#TextSlider figure a
 {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 6px;
-  padding-right: 6px;
-  color: black;
-  border-radius:10px;
-  background-color: #d09d1f;
-  background-image: linear-gradient(315deg, #d09d1f 0%, #c6920d 74%);
-  font-family: "EigerdalsHeavy", Sans-serif;
-  font-size: 20px;
+  text-decoration: none;
+  color:gray;
+  font-weight:normal;
+}
+
+#TextSlider figure a:hover
+{
+  text-decoration: underline;
+}
+
+#TextSlider figure
+{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
 }
 
 #navigation {
@@ -164,7 +182,7 @@ body {
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
-  margin-left:8px;
+  margin-left:7px;
 }
 
 .navigationButtom {
@@ -244,6 +262,36 @@ body {
 }
 
 #navigation3 {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 2px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 15px 0% 22px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation3 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: whitesmoke;
+  font-size: 19px;
+}
+
+#navigation3 a.hover {
+  background: none;
+}
+
+#navigation4 {
   background-color: #fec84e;
   background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
   width: 150px;
@@ -263,47 +311,17 @@ body {
   border: 1px solid #d09d1f;
 }
 
-#navigation3 a {
-  text-decoration: none;
-  font-family: "EigerdalsHeavy", Sans-serif;
-  color: #000;
-  font-size: 19px;
-}
-
-#navigation3:hover {
-  background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
-  border: none;
-}
-
-#navigation4 {
-  background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
-  width: 150px;
-  height: 20px;
-  margin-right: 2px;
-  text-align: center;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  padding: 15px 0% 22px;
-  text-decoration: none;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
-  font-family: "EigerdalsHeavy", Sans-serif;
-  color: #000;
-  font-size: 23px;
-  line-height: 25px;
-  padding-right: inherit;
-}
-
 #navigation4 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color: whitesmoke;
+  color:#000;
   font-size: 19px;
 }
 
-#navigation4 a.hover {
-  background: none;
+#navigation4:hover {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+  border: none;
 }
 
 #navigation5 {
@@ -338,7 +356,6 @@ body {
   background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
   border: none;
 }
-
 
 #footer {
   width: 800px;
@@ -410,7 +427,7 @@ body {
   background-size: cover;
   float: left;
   margin-left:20px;
-  margin-top:15px;
+  margin-top:13px;
 }
 
 #amazon {
@@ -437,7 +454,6 @@ body {
 
 @media screen and (max-width:600px){
 
-  
   body {
   margin: 0px;
   background-image: url(https://thumbs.dreamstime.com/b/royal-vintage-elegant-vertical-background-black-gold-classic-baroque-pattern-rococo-darkened-edges-royal-vintage-118505624.jpg);
@@ -445,9 +461,8 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 100% 1239px;
-  }
-
+  background-size: 100% 1570px;
+}
 
   #container {
     background-color: transparent;
@@ -507,7 +522,7 @@ body {
     width:100%;
     height: 205px;
     float: left;
-    background-color: transparent;
+    background-color:transparent;
     background-position: center;
     margin-top: 25px;
   }
@@ -522,7 +537,7 @@ body {
 
   #content {
     width: 92%;
-    height: 717px;
+    height: auto;
     color: white;
     float: left;
     padding-left: 4px;
@@ -543,24 +558,42 @@ body {
   font-size: 38px;
   margin-top:116px;
   margin-left: 10px;
-  text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;  
-  }
+  text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;
+}
 
+  @keyframes slideshow {}
 
   #slider {
-    display: none;
+    overflow:hidden; 
+    width: 100%;
+    height:530px;
+    background-size: cover;
+    margin:5px auto;
+    padding-bottom: 5px;
+    border:5px;
+    border-radius: 5px;
+    float: none;
+    padding-top: 5px;
   }
 
-  /* #slider img {
-  width: 100%;
-  height: 470px;
-  margin: 20px;   
-  } */
+  #slider figure img {
+    width:20%;
+    float:left; 
+  }
+  #slider figure {
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+  }
 
   #TextSlider
   {
-    width:92%;
-    height:300px;
+    overflow:hidden; 
+    width:508px;
+    height:315px;
     margin:5px auto;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -569,7 +602,20 @@ body {
     padding-left: 4px;
     background-color:black;
   }
-
+  #TextSlider figure a
+  {
+      width:20%;
+      float:left;
+  }
+  #TextSlider figure
+  {
+      position:relative;
+      width:500%;
+      margin:0;
+      left:0;
+      text-align:left;
+      animation:20s slideshow infinite
+  }
 
   #navigation {
     display: none;
@@ -583,13 +629,16 @@ body {
     display: none;
   }
 
+
   #navigation2 {
     display: none;
   }
 
+
   #navigation3 {
     display: none;
   }
+
 
   #navigation4 {
     display: none;
@@ -625,12 +674,12 @@ body {
   }
 
   #facebook {
-    width: 35px;
-    height: 35px;
-    background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
-    background-size: cover;
-    float: left;
-    margin-top:6px;
+  width: 35px;
+  height: 35px;
+  background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
+  background-size: cover;
+  float: left;
+  margin-top:6px;
   }
 
   #instagram {
@@ -697,43 +746,6 @@ body {
     font-size: 1em;
   }
 
-
-  .table1
-  {
-    border: 0px solid gray;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    color: #676867;
-    border-radius:10px;
-    font-family: "EigerdalsHeavy", Sans-serif;
-    line-height: 10;
-    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
-  }
-
-  #BOX6 {
-    width: 100%;
-    height: 50px;
-    background-color:transparent;
-    float: left;
-  }
-
-  #submitbutton
-  {
-    border: 1px solid red;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    color: black;
-    border-radius:10px;
-    background-color:#fec84e;;
-    font-family: "EigerdalsHeavy", Sans-serif;
-    font-size: 23px;
-
-  }
-
 }
 </style>
 </head>
@@ -750,7 +762,8 @@ body {
       <a href="tourhistory.htm"><strong>Tour History</strong></a>
       <a href="discography.htm"><strong>Discography</strong></a>
       <a href="contactus.htm"><strong>Contact Us</strong></a>
-      <a href="https://whitneyhouston.shop.musictoday.com/store/"><strong>Store</strong></a>
+      <a href="https://whitneyhouston.shop.musictoday.com/store/"><strong>Store
+      </strong></a>
 		</div>
 	
 	</div><!-- End Mobile Menu -->
@@ -760,62 +773,87 @@ body {
   </div>
 
   <div id="content">
-    <div id="disco"><h1>Contact Us</h1></div>
+    <div id="disco"><h1>Discography</h1></div>
+
     <div id="TextSlider">
-  
-      <div id="table1" align="center">
-        Name <br>
-        <input type="text" name="Name" size="30" maxlength="20"
-        placeholder="Type your name" required>
-        <br><br>
-        Phone <br>
-        <input type="text" name="phone" size="30" maxlength="10" placeholder="xxx-xxx-xxxx" required>
-        <br><br>
-        Email <br>
-        <input type="email" size="30"  name="email" placeholder="Type your e-mail" required>
-        <br><br>
-        Gender: <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="male"> Male
-        <br><br>
-        Tell us about yourself
-        <br>
-        <textarea name="applicantinfo" rows="5" cols="30"></textarea>
-        <br><br>
-      </div>
 
-      <div id='BOX6'>
-        <p align="center">
-        <input id="submitbutton" type="submit" value="Submit">
-        </p>
-      </div>
+      <figure> 
+      <h3>Album <br>
+        <font color="#fec84e"size="5">"I Look to You"</font>
+        <br><font color="#C1BFBF">Released:</font>	August 28, 2009 
+        <br><font color="#C1BFBF">Record:</font>	2008–2009 <br><br>
+       I Look to You is the seventh and final studio album by American singer Whitney Houston. It was first released on August 28, 2009 through Sony Music in Europe, then August 31, 2009 with Arista... <br>
+       <a href="https://en.wikipedia.org/wiki/I_Look_to_You">(read more)</a> </h3>
+       
+      
+       <h3>Album <br> 
+        <font color="#fec84e"size="5">"One Wish: The Holiday Album"</font> 
+        <br><font color="#C1BFBF">Released:</font>	November 18, 2003 
+        <br><font color="#C1BFBF">Record:</font>	1996, 2002–2003 <br><br>
+        One Wish: The Holiday Album is the sixth studio album by American singer Whitney Houston, released on November 18, 2003 by Arista Records. The album is a Christmas album, and featured the single... <br>
+        <a href="https://en.wikipedia.org/wiki/Just_Whitney">(more)</a> </h3>  
+       
+        
+        <h3>Album <br> 
+        <font color="#fec84e"size="5">"Just Whitney..." </font> 
+        <br><font color="#C1BFBF">Released:</font>	August 28, 2009 
+        <br><font color="#C1BFBF">Record:</font>	2008–2009 <br><br>
+        Just Whitney... is the fifth studio album by American singer Whitney Houston, released on December 10, 2002 in North America by Arista Records. It was her first studio album in four years... <br>
+        <a href="https://en.wikipedia.org/wiki/Just_Whitney">(read more)</a> </h3>
+      
+        
+        <h3>Album <br>
+        <font color="#fec84e"size="5">"My Love Is Your Love"</font> 
+        <br><font color="#C1BFBF">Released:</font>	November 17, 1998 
+        <br><font color="#C1BFBF">Record:</font>	August–October 1998 <br><br>
+        My Love Is Your Love is the fourth studio album by American recording artist Whitney Houston, released worldwide on November 17, 1998. It was Houston's first studio album in eight years... <br> 
+        <a href="https://en.wikipedia.org/wiki/My_Love_Is_Your_Love">(read more)</a> </h3>
+       
+        
+        <h3>Album <br>
+        <font color="#fec84e"size="5">"I'm Your Baby Tonight"</font> 
+        <br><font color="#C1BFBF">Released:</font>	November 6, 1990 
+        <br><font color="#C1BFBF">Record:</font>	November 1989–August 1990 <br><br>
+        I'm Your Baby Tonight is the third studio album of American singer Whitney Houston released on November 6, 1990 by Arista Records. The album has been certified quadruple platinum in the US by the RIAA <br>
+        <a href="https://en.wikipedia.org/wiki/I%27m_Your_Baby_Tonight">(read more)</a> </h3>
+       
+    </figure>
+       
     </div>  
-    
     <div id="slider">
-
-        <img src="https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/07/10221419800_Whitney_Chrome_018.jpg">      
-
+      <figure> 
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/69/I_Look_to_You_Whitney.jpg">
+        <img src="https://www.fye.com/on/demandware.static/-/Sites-fye-master/default/dwd23fdfd0/aec/imt/imt195/aec.imt1956572.2_0.jpg">      
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/Whitney_Houston-_Just_Whitney_Cover.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Whitney_Houston_-_My_Love_Is_Your_Love_album_cover.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a3/Whitney_Houston_I%27m_Your_Baby_Tonight_Cover.jpg">
+      
+      </figure>
     </div>   
+  </div>       
 
-    <div id="navigation">
-      <div class="navigationButtom">
-        <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
-      </div>
   
-      <div class="navigationButtom">
-        <div id="navigation2"><a href="awards.htm"><strong>Awards</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation3"><a href="career.htm"><strong>Career</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation5" ><a href="inmemoriam.htm"><strong>In Memoriam</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation4"><a href="contactus.htm"><strong>Contact Us</strong></a></div>
-      </div>  
+  <div id="navigation">
+    <div class="navigationButtom">
+      <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
     </div>
+
+    <div class="navigationButtom">
+      <div id="navigation2"><a href="awards.htm"><strong>Awards</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation3"><a href="career.htm"><strong>Career</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation5" ><a href="inmemoriam.htm"><strong>In Memoriam</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation4"><a href="contactus.htm"><strong>Contact Us</strong></a></div>
+    </div>  
+  </div>
 
 
   <div id='footer'>
