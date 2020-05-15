@@ -129,7 +129,10 @@ body {
 .table1
 {
   border: 0px solid gray;
-  padding:10px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
   color: #676867;
   border-radius:10px;
   line-height: 10;
@@ -146,6 +149,7 @@ body {
 
 #submitbutton
 {
+
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 6px;
@@ -164,7 +168,7 @@ body {
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
-  margin-left:8px;
+  margin-left:7px;
 }
 
 .navigationButtom {
@@ -233,7 +237,7 @@ body {
 #navigation2 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color:#000;
+  color: #000;
   font-size: 19px;
 }
 
@@ -272,41 +276,11 @@ body {
 
 #navigation3:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   border: none;
 }
 
 #navigation4 {
-  background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
-  width: 150px;
-  height: 20px;
-  margin-right: 2px;
-  text-align: center;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  padding: 15px 0% 22px;
-  text-decoration: none;
-  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
-  font-family: "EigerdalsHeavy", Sans-serif;
-  color: #000;
-  font-size: 23px;
-  line-height: 25px;
-  padding-right: inherit;
-}
-
-#navigation4 a {
-  text-decoration: none;
-  font-family: "EigerdalsHeavy", Sans-serif;
-  color: whitesmoke;
-  font-size: 19px;
-}
-
-#navigation4 a.hover {
-  background: none;
-}
-
-#navigation5 {
   background-color: #fec84e;
   background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
   width: 150px;
@@ -326,17 +300,47 @@ body {
   border: 1px solid #d09d1f;
 }
 
-#navigation5 a {
+#navigation4 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color: #000;
+  color:#000;
   font-size: 19px;
 }
 
-#navigation5:hover {
+#navigation4:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   border: none;
+}
+
+#navigation5 {
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+  width: 150px;
+  height: 20px;
+  margin-right: 2px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 15px 0% 22px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: #000;
+  font-size: 23px;
+  line-height: 25px;
+  padding-right: inherit;
+}
+
+#navigation5 a {
+  text-decoration: none;
+  font-family: "EigerdalsHeavy", Sans-serif;
+  color: whitesmoke;
+  font-size: 19px;
+}
+
+#navigation5 a.hover {
+  background: none;
 }
 
 
@@ -435,7 +439,7 @@ body {
   font-size: 1em;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
 
   
   body {
@@ -445,13 +449,13 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 100% 1239px;
+  background-size: 100% 1350px;
   }
 
 
   #container {
     background-color: transparent;
-    width:100%;
+    width:98%;
     height: auto;
     margin: 10px auto;
   }
@@ -463,7 +467,7 @@ body {
 
 
   #menuNAVBar {
-    width:100%;
+    width:98%;
     background-color:transparent;
     height:110px;
     display:none;
@@ -473,7 +477,7 @@ body {
 
 
   #menuNAVBarLINKS {
-    width:100%;
+    width:98%;
     background-color:transparent;
     height:220px;
     display:block;
@@ -482,7 +486,7 @@ body {
 
 
   #menuNAVBarLINKS a {
-    width: 100%;
+    width: 98%;
     line-height: 40px; 
     text-decoration: none;
     font-family: "EigerdalsHeavy", Sans-serif;
@@ -504,36 +508,39 @@ body {
 
 
   #HolderTop {
-    width:100%;
+    width:98%;
     height: 205px;
     float: left;
     background-color: transparent;
     background-position: center;
     margin-top: 25px;
   }
+  
+  #HolderTop p {
+    font-size: 32px;
+  }
 
   #top {
-    width:50%;
+    width:90%;
     height:110px;
     background-image: url(https://fanart.tv/fanart/music/0307edfc-437c-4b48-8700-80680e66a228/hdmusiclogo/houston-whitney-546277abc9ff4.png);
     background-size: cover;
-    margin-left: 25%;
+    margin-left: 7%;
   }
 
   #content {
-    width: 92%;
-    height: 717px;
+    width: 98%;
+    height: 642px;
     color: white;
     float: left;
     padding-left: 4px;
     background-color: black;
     border: 1px solid #be9a5c;
-    margin-left: 20px;
   }
 
 
   #disco {
-    width:100%;
+    width:98%;
     height: 166px;
   }
 
@@ -559,7 +566,7 @@ body {
 
   #TextSlider
   {
-    width:92%;
+    width:98%;
     height:300px;
     margin:5px auto;
     padding-bottom: 5px;
@@ -600,7 +607,7 @@ body {
   }
 
   #footer {
-    width: 100%;
+    width: 98%;
     height: 80px;
     float:left;
     font-family: 'bgMed',arial,helvetica,sans-serif;
@@ -618,74 +625,81 @@ body {
   }
 
   #social {
-    width: 100%;
+    /* width: 100%;
     height: 50px;
     margin-left: 7%;
-    margin-top: 20px;
+    margin-top: 20px; */
+    display: none;
   }
 
   #facebook {
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
     background-size: cover;
     float: left;
-    margin-top:6px;
+    margin-top:6px; */
+    display: none;
   }
 
   #instagram {
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-image: url('https://ya-webdesign.com/transparent250_/circle-instagram-logo-png-3.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:6px;
+    margin-top:6px; */
+    display: none;
   }
 
   #spotfy {
-    width: 100px;
+    /* width: 100px;
     height: 36px;
     background-image: url('https://ya-webdesign.com/transparent250_/available-on-spotify-png-4.png');
     background-size: cover;
     float: left;
     margin-left:18px;
-    margin-top: 6px;
+    margin-top: 6px; */
+    display: none;
   }
 
   #youtube {
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-image: url('https://ya-webdesign.com/transparent250_/youtube-logo-png-transparent-2.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:6px;
+    margin-top:6px; */
+    display: none;
   }
 
   #sony {
-    width: 118px;
+    /* width: 118px;
     height: 20px;
     background-image: url('https://ya-webdesign.com/transparent250_/sony-logo-png-6.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:15px;
+    margin-top:15px; */
+    display: none;
   }
 
 
   #amazon {
-    width: 93px;
+    /* width: 93px;
     height: 50px;
     background-image: url('https://ya-webdesign.com/transparent250_/buy-on-amazon-png-18.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:2px;  
+    margin-top:2px;   */
+    display: none;
   }
 
   #copyrights {
-    width: 100%;
+    width: 98%;
     height: 40px;
     color: whitesmoke;
     margin:5px auto;
@@ -694,7 +708,7 @@ body {
 
   #copyrights p {
     color: whitesmoke;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
 
@@ -713,7 +727,7 @@ body {
   }
 
   #BOX6 {
-    width: 100%;
+    width: 98%;
     height: 50px;
     background-color:transparent;
     float: left;
@@ -745,7 +759,7 @@ body {
 	<div id="menuBar"><a onclick="SHOWmenuNAVBar()" href='#'><img style='width:44px;float:right' src='https://ya-webdesign.com/transparent250_/hamburger-icon-white-png-13.png'></a></div>
 	<div id="menuNAVBar">
 
-    <div id="menuNAVBarLINKS">
+		<div id="menuNAVBarLINKS">
       <a href="index.htm"><strong>Early Life</strong></a>
       <a href="awards.htm"><strong>Awards</strong></a>
       <a href="career.htm"><strong>Career</strong></a>
@@ -772,7 +786,7 @@ body {
         <input type="text" name="phone" size="30" maxlength="10" placeholder="xxx-xxx-xxxx" required>
         <br><br>
         Email <br>
-        <input type="email" size="30"  name="email" placeholder="Type your e-mail" required>
+        <input type="text" size="30"  name="email" placeholder="Type your e-mail" required>
         <br><br>
         Gender: <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="male"> Male
         <br><br>
@@ -795,27 +809,28 @@ body {
 
     </div>   
 
-    <div id="navigation">
-      <div class="navigationButtom">
-        <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation2"><a href="awards.htm"><strong>Awards</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation3"><a href="career.htm"><strong>Career</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation5" ><a href="inmemoriam.htm"><strong>In Memoriam</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation4"><a href="contactus.htm"><strong>Contact Us</strong></a></div>
-      </div>  
+  </div>       
+  <div id="navigation">
+    <div class="navigationButtom">
+      <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
     </div>
+
+    <div class="navigationButtom">
+      <div id="navigation2"><a href="awards.htm"><strong>Awards</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation3"><a href="career.htm"><strong>Career</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation4" ><a href="inmemoriam.htm"><strong>In Memoriam</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation5"><a href="contactus.htm"><strong>Contact Us</strong></a></div>
+    </div>  
+  </div>
 
 
   <div id='footer'>
@@ -853,3 +868,4 @@ document.getElementById('menuBar').innerHTML = "<a onclick='SHOWmenuNAVBar()' hr
 </script>
 </body>
 </html>
+<script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/6e9bb749fd596ea3a0d69ed4372dc651?id=89b8073435b7";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script>

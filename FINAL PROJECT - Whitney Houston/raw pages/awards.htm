@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 900px 1170px;
+  background-size: 900px 1240px;
 }
 
 
@@ -180,9 +180,10 @@ body {
   width: 800px;
   height: 120px;
   background-color: transparent;
-  margin-left: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left:7px;
 }
-
 
 .navigationButtom {
   display: inline-block;
@@ -286,7 +287,7 @@ body {
 
 #navigation3:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   border: none;
 }
 
@@ -313,13 +314,13 @@ body {
 #navigation4 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color: #000;
+  color:#000;
   font-size: 19px;
 }
 
 #navigation4:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   border: none;
 }
 
@@ -445,6 +446,7 @@ body {
   height: 40px;
   color: whitesmoke;
   margin:5px auto;
+  float: left;
 }
 
 #copyrights p {
@@ -452,7 +454,7 @@ body {
   font-size: 1em;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
 
   body {
     margin: 0px;
@@ -466,7 +468,7 @@ body {
 
   #container {
     background-color: transparent;
-    width:100%;
+    width:98%;
     height: auto;
     margin: 10px auto;
   }
@@ -478,7 +480,7 @@ body {
 
 
   #menuNAVBar {
-    width:100%;
+    width:98%;
     background-color:transparent;
     height:110px;
     display:none;
@@ -488,7 +490,7 @@ body {
 
 
   #menuNAVBarLINKS {
-    width:100%;
+    width:98%;
     background-color:transparent;
     height:220px;
     display:block;
@@ -497,7 +499,7 @@ body {
 
 
   #menuNAVBarLINKS a {
-    width: 100%;
+    width: 98%;
     line-height: 40px; 
     text-decoration: none;
     font-family: "EigerdalsHeavy", Sans-serif;
@@ -519,31 +521,34 @@ body {
 
 
   #HolderTop {
-    width:100%;
+    width:98%;
     height: 205px;
     float: left;
     background-color: transparent;
     background-position: center;
     margin-top: 25px;
   }
+  
+  #HolderTop p {
+    font-size: 32px;
+  }
 
   #top {
-    width:50%;
+    width:90%;
     height:110px;
     background-image: url(https://fanart.tv/fanart/music/0307edfc-437c-4b48-8700-80680e66a228/hdmusiclogo/houston-whitney-546277abc9ff4.png);
     background-size: cover;
-    margin-left: 25%;
+    margin-left: 7%;
   }
 
   #content {
-    width: 92%;
+    width: 98%;
     height: auto;
     color: white;
     float: left;
     padding-left: 4px;
     background-color: black;
     border: 1px solid #be9a5c;
-    margin-left: 20px;
   }
 
 
@@ -565,7 +570,7 @@ body {
 
   #slider {
     overflow:hidden; 
-    width:100%;
+    width:98%;
     height:460px;
     background-size: cover;
     margin:5px auto;
@@ -592,7 +597,7 @@ body {
   #TextSlider
   {
     overflow:hidden; 
-    width:508px;
+    width:98%;
     height:300px;
     margin:5px auto;
     padding-bottom: 5px;
@@ -649,7 +654,7 @@ body {
   }
 
   #footer {
-    width: 100%;
+    width: 98%;
     height: 80px;
     float:left;
     font-family: 'bgMed',arial,helvetica,sans-serif;
@@ -667,39 +672,43 @@ body {
   }
 
   #social {
-    width: 100%;
-    height: 50px;
+    /* width: 100%;
+    height: 100px;
     margin-left: 7%;
-    margin-top: 20px;
+    margin-top: 20px; */
+    display: none;
   }
 
   #facebook {
-  width: 35px;
+  /* width: 35px;
   height: 35px;
   background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
   background-size: cover;
   float: left;
-  margin-top:6px;
+  margin-top:6px; */
+  display: none;
   }
 
   #instagram {
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-image: url('https://ya-webdesign.com/transparent250_/circle-instagram-logo-png-3.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:6px;
+    margin-top:6px; */
+    display: none;
   }
 
   #spotfy {
-    width: 100px;
+    /* width: 100px;
     height: 36px;
     background-image: url('https://ya-webdesign.com/transparent250_/available-on-spotify-png-4.png');
     background-size: cover;
     float: left;
     margin-left:18px;
-    margin-top: 6px;
+    margin-top: 6px; */
+    display: none;
   }
 
   #youtube {
@@ -713,24 +722,26 @@ body {
   }
 
   #sony {
-    width: 118px;
+    /* width: 118px;
     height: 20px;
     background-image: url('https://ya-webdesign.com/transparent250_/sony-logo-png-6.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:15px;
+    margin-top:15px; */
+    display: none;
   }
 
 
   #amazon {
-    width: 93px;
+    /* width: 93px;
     height: 50px;
     background-image: url('https://ya-webdesign.com/transparent250_/buy-on-amazon-png-18.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:2px;  
+    margin-top:2px;   */
+    display: none;
   }
 
   #copyrights {
@@ -743,7 +754,7 @@ body {
 
   #copyrights p {
     color: whitesmoke;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
 }
@@ -757,7 +768,7 @@ body {
 	<div id="menuBar"><a onclick="SHOWmenuNAVBar()" href='#'><img style='width:44px;float:right' src='https://ya-webdesign.com/transparent250_/hamburger-icon-white-png-13.png'></a></div>
 	<div id="menuNAVBar">
 
-    <div id="menuNAVBarLINKS">
+		<div id="menuNAVBarLINKS">
       <a href="index.htm"><strong>Early Life</strong></a>
       <a href="awards.htm"><strong>Awards</strong></a>
       <a href="career.htm"><strong>Career</strong></a>
@@ -772,7 +783,7 @@ body {
   </div>
 
   <div id="content">
-    <div id="disco"><h1>Tour History</h1></div>
+    <div id="disco"><h1>Awards</h1></div>
     <div id="TextSlider">
   
       <figure> 
@@ -813,28 +824,29 @@ body {
         <img src="https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/06/whitney_pacific_front3.jpg">
       </figure>
     </div>   
+  </div>   
 
-    <div id="navigation">
-      <div class="navigationButtom">
-        <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation2"><a href="awards.htm"><strong>Awards</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation3"><a href="career.htm"><strong>Career</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation5" ><a href="inmemoriam.htm"><strong>In Memoriam</strong></a></div>
-      </div>
-  
-      <div class="navigationButtom">
-        <div id="navigation4"><a href="contactus.htm"><strong>Contact Us</strong></a></div>
-      </div>  
+  <div id="navigation">
+    <div class="navigationButtom">
+      <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
     </div>
+
+    <div class="navigationButtom">
+      <div id="navigation2"><a href="awards.htm"><strong>Awards</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation3"><a href="career.htm"><strong>Career</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation5" ><a href="inmemoriam.htm"><strong>In Memoriam</strong></a></div>
+    </div>
+
+    <div class="navigationButtom">
+      <div id="navigation4"><a href="contactus.htm"><strong>Contact Us</strong></a></div>
+    </div>  
+  </div>
 
 
   <div id='footer'>
@@ -842,7 +854,7 @@ body {
       <a href="https://www.facebook.com/WhitneyHouston"><div id='facebook'></div></a>
       <a href="https://www.instagram.com/whitneyhouston/"><div id='instagram'></div></a>
       <a href="https://www.youtube.com/channel/UC7fzrpTArAqDHuB3Hbmd_CQ"><div id='youtube'></div></a>
-      <a href="https://open.spotify.com/artist/6XpaIBNiVzIetEPCWDvAFP"><div id='spotfy'></div></a>
+      <a href="https://open.spotify.com/artist/6XpaIBNiVzIetEPCWDvAFP"><div id='spotfy'></div></a><br>
       <a href="https://www.amazon.com/s?i=popular&rh=p_32%3AWhitney+Houston&ref=dp_byline_sr_music_1"><div id='amazon'></div></a>
       <a href="https://www.sonymusic.com/"><div id='sony'></div></a>
     </div>
@@ -873,3 +885,4 @@ document.getElementById('menuBar').innerHTML = "<a onclick='SHOWmenuNAVBar()' hr
 </body>
 </html>
 
+<script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/6e9bb749fd596ea3a0d69ed4372dc651?id=89b8073435b7";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script>

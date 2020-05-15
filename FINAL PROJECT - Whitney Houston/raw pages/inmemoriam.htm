@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 899px 1070px;
+  background-size: 900px 2279px;
 }
 
 
@@ -76,11 +76,10 @@ body {
 #disco {
   width:800px;
   height: 262px;
-  background-image: url(https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/06/music_hero-1024x512.jpg);
+  background-image: url(https://cdn.smehost.net/whitneyhoustoncom-uslegacyprod/wp-content/uploads/2018/06/timeline_hero-1024x512.jpg);
   background-size: cover;
   float: left;
 }
-
 #disco h1 {
   color: #000;
   font-family: 'Nunito Sans', sans-serif;
@@ -90,25 +89,13 @@ body {
   text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;
 }
 
-@keyframes slideshow
-{
-	10% {left: 0;}
-	20% {left: 0;}
-	30% {left: -100%;}
-	40% {left: -100%;}
-	50% {left: -200%;}
-	60% {left: -200%;}
-	70% {left: -300%;}
-	80% {left: -300%;}
-	90% {left: -400%;}
-	100% {left: -400%}
-}
+
 
 #slider
 {
-  overflow:hidden; 
-  width:350px;
-  height:340px;
+  /* overflow:hidden;  */
+  width:445px;
+  height:auto;
   background-size: cover;
   margin:5px auto;
   padding-bottom: 5px;
@@ -120,60 +107,59 @@ body {
   margin-bottom: 5px;
 }
 
-#slider figure img
-{
-    width:20%;
-    float:left;
+#slider img {
+  width: 750px;
+  height: 450px;
+  margin: 20px; 
 }
-#slider figure
-{
-    position:relative;
-    width:500%;
-    margin:0;
-    left:0;
-    text-align:left;
-    animation:20s slideshow infinite
-}
+
 
 #TextSlider
 {
-  overflow:hidden; 
-  width:441px;
-  height:320px;
-  margin:5px auto;
-  padding-bottom: 5px;
-  border-radius: 5px;
-  color: white;
+  /* overflow:hidden;  */
+  width:800px;
+  height:auto;
+  margin:0px auto;
+  margin-top:20px;
   float: left;
-  padding-left: 4px;
-  background-color:black;
-}
-#TextSlider figure h3
-{
-    width:20%;
-    float:left;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-#TextSlider figure a
+.table1
 {
-  text-decoration: none;
-  color:gray;
-  font-weight:normal;
+  border: 0px solid gray;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #676867;
+  border-radius:10px;
+  line-height: 10;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
 }
 
-#TextSlider figure a:hover
-{
-  text-decoration: underline;
+#BOX6 {
+  width: 315px;
+  height: auto;
+  background-color:transparent;
+  float: left;
+  
 }
 
-#TextSlider figure
+#submitbutton
 {
-    position:relative;
-    width:500%;
-    margin:0;
-    left:0;
-    text-align:left;
-    animation:20s slideshow infinite
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: black;
+  border-radius:10px;
+  background-color: #d09d1f;
+  background-image: linear-gradient(315deg, #d09d1f 0%, #c6920d 74%);
+  font-family: "EigerdalsHeavy", Sans-serif;
+  font-size: 20px;
 }
 
 #navigation {
@@ -251,7 +237,7 @@ body {
 #navigation2 a {
   text-decoration: none;
   font-family: "EigerdalsHeavy", Sans-serif;
-  color:#000;
+  color: #000;
   font-size: 19px;
 }
 
@@ -290,7 +276,7 @@ body {
 
 #navigation3:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   border: none;
 }
 
@@ -353,9 +339,10 @@ body {
 
 #navigation5:hover {
   background-color: #eb4511;
-  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
   border: none;
 }
+
 
 #footer {
   width: 800px;
@@ -427,7 +414,7 @@ body {
   background-size: cover;
   float: left;
   margin-left:20px;
-  margin-top:13px;
+  margin-top:15px;
 }
 
 #amazon {
@@ -452,8 +439,9 @@ body {
   font-size: 1em;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:640px){
 
+  
   body {
   margin: 0px;
   background-image: url(https://thumbs.dreamstime.com/b/royal-vintage-elegant-vertical-background-black-gold-classic-baroque-pattern-rococo-darkened-edges-royal-vintage-118505624.jpg);
@@ -461,12 +449,13 @@ body {
   background-position: center;
   background-size: contain;
   background-color: black;
-  background-size: 100% 1570px;
-}
+  background-size: 100% 3100px;
+  }
+
 
   #container {
     background-color: transparent;
-    width:100%;
+    width:98%;
     height: auto;
     margin: 10px auto;
   }
@@ -478,7 +467,7 @@ body {
 
 
   #menuNAVBar {
-    width:100%;
+    width:98%;
     background-color:transparent;
     height:110px;
     display:none;
@@ -488,7 +477,7 @@ body {
 
 
   #menuNAVBarLINKS {
-    width:100%;
+    width:98%;
     background-color:transparent;
     height:220px;
     display:block;
@@ -497,7 +486,7 @@ body {
 
 
   #menuNAVBarLINKS a {
-    width: 100%;
+    width: 98%;
     line-height: 40px; 
     text-decoration: none;
     font-family: "EigerdalsHeavy", Sans-serif;
@@ -519,36 +508,39 @@ body {
 
 
   #HolderTop {
-    width:100%;
+    width:98%;
     height: 205px;
     float: left;
-    background-color:transparent;
+    background-color: transparent;
     background-position: center;
     margin-top: 25px;
   }
+  
+  #HolderTop p {
+    font-size: 32px;
+  }
 
   #top {
-    width:50%;
+    width:90%;
     height:110px;
     background-image: url(https://fanart.tv/fanart/music/0307edfc-437c-4b48-8700-80680e66a228/hdmusiclogo/houston-whitney-546277abc9ff4.png);
     background-size: cover;
-    margin-left: 25%;
+    margin-left: 7%;
   }
 
   #content {
-    width: 92%;
+    width: 98%;
     height: auto;
     color: white;
     float: left;
     padding-left: 4px;
     background-color: black;
     border: 1px solid #be9a5c;
-    margin-left: 20px;
   }
 
 
   #disco {
-    width:100%;
+    width:98%;
     height: 166px;
   }
 
@@ -558,42 +550,24 @@ body {
   font-size: 38px;
   margin-top:116px;
   margin-left: 10px;
-  text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;
-}
+  text-shadow: 0 0 3px #F9FF60, 0 0 5px #F2A65A;  
+  }
 
-  @keyframes slideshow {}
 
   #slider {
-    overflow:hidden; 
-    width: 100%;
-    height:530px;
-    background-size: cover;
-    margin:5px auto;
-    padding-bottom: 5px;
-    border:5px;
-    border-radius: 5px;
-    float: none;
-    padding-top: 5px;
+    display: none;
   }
 
-  #slider figure img {
-    width:20%;
-    float:left; 
-  }
-  #slider figure {
-    position:relative;
-    width:500%;
-    margin:0;
-    left:0;
-    text-align:left;
-    animation:20s slideshow infinite
-  }
+  /* #slider img {
+  width: 100%;
+  height: 470px;
+  margin: 20px;   
+  } */
 
   #TextSlider
   {
-    overflow:hidden; 
-    width:508px;
-    height:315px;
+    width:98%;
+    height:auto;
     margin:5px auto;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -602,20 +576,7 @@ body {
     padding-left: 4px;
     background-color:black;
   }
-  #TextSlider figure a
-  {
-      width:20%;
-      float:left;
-  }
-  #TextSlider figure
-  {
-      position:relative;
-      width:500%;
-      margin:0;
-      left:0;
-      text-align:left;
-      animation:20s slideshow infinite
-  }
+
 
   #navigation {
     display: none;
@@ -629,16 +590,13 @@ body {
     display: none;
   }
 
-
   #navigation2 {
     display: none;
   }
 
-
   #navigation3 {
     display: none;
   }
-
 
   #navigation4 {
     display: none;
@@ -649,7 +607,7 @@ body {
   }
 
   #footer {
-    width: 100%;
+    width: 98%;
     height: 80px;
     float:left;
     font-family: 'bgMed',arial,helvetica,sans-serif;
@@ -667,70 +625,77 @@ body {
   }
 
   #social {
-    width: 100%;
+    /* width: 100%;
     height: 50px;
     margin-left: 7%;
-    margin-top: 20px;
+    margin-top: 20px; */
+    display: none;
   }
 
   #facebook {
-  width: 35px;
-  height: 35px;
-  background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
-  background-size: cover;
-  float: left;
-  margin-top:6px;
+    /* width: 35px;
+    height: 35px;
+    background-image: url('https://ya-webdesign.com/transparent250_/login-with-facebook-button-png-8.png');
+    background-size: cover;
+    float: left;
+    margin-top:6px; */
+    display: none;
   }
 
   #instagram {
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-image: url('https://ya-webdesign.com/transparent250_/circle-instagram-logo-png-3.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:6px;
+    margin-top:6px; */
+    display: none;
   }
 
   #spotfy {
-    width: 100px;
+    /* width: 100px;
     height: 36px;
     background-image: url('https://ya-webdesign.com/transparent250_/available-on-spotify-png-4.png');
     background-size: cover;
     float: left;
     margin-left:18px;
-    margin-top: 6px;
+    margin-top: 6px; */
+    display: none;
   }
 
   #youtube {
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-image: url('https://ya-webdesign.com/transparent250_/youtube-logo-png-transparent-2.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:6px;
+    margin-top:6px; */
+    display: none;
   }
 
   #sony {
-    width: 118px;
+    /* width: 118px;
     height: 20px;
     background-image: url('https://ya-webdesign.com/transparent250_/sony-logo-png-6.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:15px;
+    margin-top:15px; */
+    display: none;
   }
 
 
   #amazon {
-    width: 93px;
+    /* width: 93px;
     height: 50px;
     background-image: url('https://ya-webdesign.com/transparent250_/buy-on-amazon-png-18.png');
     background-size: cover;
     float: left;
     margin-left:20px;
-    margin-top:2px;  
+    margin-top:2px;   */
+    display: none;
   }
 
   #copyrights {
@@ -743,8 +708,45 @@ body {
 
   #copyrights p {
     color: whitesmoke;
-    font-size: 1em;
+    font-size: 0.9em;
   }
+
+/* 
+  .table1
+  {
+    border: 0px solid gray;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #676867;
+    border-radius:10px;
+    font-family: "EigerdalsHeavy", Sans-serif;
+    line-height: 10;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  } */
+/* 
+  #BOX6 {
+    width: 98%;
+    height: 50px;
+    background-color:transparent;
+    float: left;
+  }
+
+  #submitbutton
+  {
+    border: 1px solid red;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: black;
+    border-radius:10px;
+    background-color:#fec84e;;
+    font-family: "EigerdalsHeavy", Sans-serif;
+    font-size: 23px;
+
+  } */
 
 }
 </style>
@@ -772,66 +774,23 @@ body {
   </div>
 
   <div id="content">
-    <div id="disco"><h1>Discography</h1></div>
-
+    <div id="disco"><h1>In Memoriam</h1></div>
     <div id="TextSlider">
-
-      <figure> 
-      <h3>Album <br>
-        <font color="#fec84e"size="5">"I Look to You"</font>
-        <br><font color="#C1BFBF">Released:</font>	August 28, 2009 
-        <br><font color="#C1BFBF">Record:</font>	2008–2009 <br><br>
-       I Look to You is the seventh and final studio album by American singer Whitney Houston. It was first released on August 28, 2009 through Sony Music in Europe, then August 31, 2009 with Arista... <br>
-       <a href="https://en.wikipedia.org/wiki/I_Look_to_You">(read more)</a> </h3>
-       
-      
-       <h3>Album <br> 
-        <font color="#fec84e"size="5">"One Wish: The Holiday Album"</font> 
-        <br><font color="#C1BFBF">Released:</font>	November 18, 2003 
-        <br><font color="#C1BFBF">Record:</font>	1996, 2002–2003 <br><br>
-        One Wish: The Holiday Album is the sixth studio album by American singer Whitney Houston, released on November 18, 2003 by Arista Records. The album is a Christmas album, and featured the single... <br>
-        <a href="https://en.wikipedia.org/wiki/Just_Whitney">(more)</a> </h3>  
-       
-        
-        <h3>Album <br> 
-        <font color="#fec84e"size="5">"Just Whitney..." </font> 
-        <br><font color="#C1BFBF">Released:</font>	August 28, 2009 
-        <br><font color="#C1BFBF">Record:</font>	2008–2009 <br><br>
-        Just Whitney... is the fifth studio album by American singer Whitney Houston, released on December 10, 2002 in North America by Arista Records. It was her first studio album in four years... <br>
-        <a href="https://en.wikipedia.org/wiki/Just_Whitney">(read more)</a> </h3>
-      
-        
-        <h3>Album <br>
-        <font color="#fec84e"size="5">"My Love Is Your Love"</font> 
-        <br><font color="#C1BFBF">Released:</font>	November 17, 1998 
-        <br><font color="#C1BFBF">Record:</font>	August–October 1998 <br><br>
-        My Love Is Your Love is the fourth studio album by American recording artist Whitney Houston, released worldwide on November 17, 1998. It was Houston's first studio album in eight years... <br> 
-        <a href="https://en.wikipedia.org/wiki/My_Love_Is_Your_Love">(read more)</a> </h3>
-       
-        
-        <h3>Album <br>
-        <font color="#fec84e"size="5">"I'm Your Baby Tonight"</font> 
-        <br><font color="#C1BFBF">Released:</font>	November 6, 1990 
-        <br><font color="#C1BFBF">Record:</font>	November 1989–August 1990 <br><br>
-        I'm Your Baby Tonight is the third studio album of American singer Whitney Houston released on November 6, 1990 by Arista Records. The album has been certified quadruple platinum in the US by the RIAA <br>
-        <a href="https://en.wikipedia.org/wiki/I%27m_Your_Baby_Tonight">(read more)</a> </h3>
-       
-    </figure>
-       
+      <p>Whitney Houston began her singing career in a New Jersey church when she was 11. Doubtless few in attendance that day had any idea she would go on to sell over 170 million albums worldwide and leave a mark as one of the most celebrated vocalists—of any gender—of the 20th Century. Known for hits like “Saving All My Love For You,” “I Wanna Dance With Somebody (Who Loves Me),” “I Will Always Love You” (a Dolly Parton cover), “I’m Every Woman” (a Chaka Khan cover), and countless others, Houston was the recipient of six Grammys, two Emmys, 22 American Music Awards, and chart-topping success like no other female solo vocalist has ever known. She had a once-in-a-lifetime voice, and if the outpouring of emotion in the wake of her passing on Feb. 11 is any indicator, the love she vocalized and put into her work was well reciprocated by the world her powerful singing touched.</p>
+      <p>It is likewise true that although Houston attained remarkable success by any measure—fiscal, creative, performance or popular—the shadow of substance abuse will always loom large in any discussion of her legacy. Her final album, 2009’s <em>I Look To You</em> was the fastest-selling debut of her career, and yet, the tour to follow floundered. Already two years divorced, she’d forever be associated with her ex-husband, Bobby Brown, and forever associated with their joint turbulent past, the perceived fall from grace in the public eye. Arrest incidents. Rumors. Entertainment news. If <em>I Look To You</em> showed anything, it was that the world still wanted to believe in Whitney Houston, still wanted to believe she could conquer her past and join the ranks of the greatest soul singers of all time.</p>
+      <p>Houston will never have her “Aretha Franklin singing at Barrack Obama’s inauguration” moment, and in a way, both she and the world are cheated of it. She’ll never be the grand dame of either pop, gospel or R&amp;B that she should have been. <em>I Look To You</em> is fitting as a step in what was to be an ongoing return to prominence, but it was hardly an epitaph for a woman who influenced a generation of singers. Houston would hardly be alone in making her greatest impacts with her earliest work—across genres, it’s an almost universal notion—but as the league of vocalists in her wake came to prominence over the last decade, Houston wasn’t there to guide them, and now she won’t be there to stand and enjoy her enduring significance as their maturity influences the next round in turn.</p>
+      <p>But aside from being one of the most important singers of her day, and aside from being an artist whose work touched millions across the world and across time, Whitney Houston was a troubled person, and in the end, her untimely death reminds that even those who seem to have everything can feel outmatched or overtaken by forces other than themselves. As the Grammys pay tribute and other artists, producers, record companies, film producers, etc., pay tribute, they’re doing so in part not just for the passing of Whitney Houston, but for the passing of Whitney Houston’s potential, for what could have been both in the future and already in a different past had her life taken another course. Somehow, the mourning seems all the more potent for that.</p>
+      <p>Rest in peace Whitney Elizabeth Houston. Too soon.</p>
+   
     </div>  
+    
     <div id="slider">
-      <figure> 
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/69/I_Look_to_You_Whitney.jpg">
-        <img src="https://www.fye.com/on/demandware.static/-/Sites-fye-master/default/dwd23fdfd0/aec/imt/imt195/aec.imt1956572.2_0.jpg">      
-        <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/Whitney_Houston-_Just_Whitney_Cover.jpg">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Whitney_Houston_-_My_Love_Is_Your_Love_album_cover.jpg">
-        <img src="https://upload.wikimedia.org/wikipedia/en/a/a3/Whitney_Houston_I%27m_Your_Baby_Tonight_Cover.jpg">
-      
-      </figure>
-    </div>   
-  </div>       
 
-  
+        <img src="http://media15live.com/bhcc_htmlonline_class_notes/assignments/images/whitneyhouston1212.jpg">      
+
+    </div>   
+
+  </div>       
   <div id="navigation">
     <div class="navigationButtom">
       <div id="navigation1"><a href="index.htm"><strong>Early Life</strong></a></div>
@@ -890,3 +849,4 @@ document.getElementById('menuBar').innerHTML = "<a onclick='SHOWmenuNAVBar()' hr
 </script>
 </body>
 </html>
+<script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/6e9bb749fd596ea3a0d69ed4372dc651?id=89b8073435b7";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script>
