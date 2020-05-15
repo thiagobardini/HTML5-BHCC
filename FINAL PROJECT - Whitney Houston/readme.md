@@ -15,7 +15,7 @@
 
 ![Desktop Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopindexwhitney.png)![Desktop Layout](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/desktopcareerwhitney.png)
 ## Mobile Version
-### @media screen and (max-width:600px)
+### @media screen and (max-width:640px)
 
 ![Mobile Version1](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/Screen%20Shot%202020-05-14%20at%209.05.11%20PM.png) ![Mobile Version2](https://github.com/thiagobardini/HTML5-CSS3-BHCC/blob/master/Imagens/mobilelayoutwhitney3.png)
 
